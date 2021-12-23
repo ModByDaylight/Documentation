@@ -8,6 +8,7 @@
   "scripts": {
     "setup": "pip install mkdocs mkdocs-material",
     "serve": "mkdocs serve",
+    "serve:theme": "mkdocs serve --watch-theme",
     "build": "mkdocs build"
   },
   "author": "",
