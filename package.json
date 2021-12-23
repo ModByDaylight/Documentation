@@ -1,0 +1,15 @@
+{
+  "name": "documentation",
+  "version": "1.0.0",
+  "description": "Dead by Daylight Modding Documentation",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "setup": "pip install mkdocs mkdocs-material",
+    "serve": "mkdocs serve",
+    "build": "mkdocs build"
+  },
+  "author": "",
+  "license": "SEE LICENSE IN LICENSE"
+}
