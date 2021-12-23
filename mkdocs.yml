@@ -5,8 +5,6 @@ theme:
   custom_dir: theme_override/
 extra_css:
   - 'style.css'
-extra_javascript:
-  - 'script.js'
 markdown_extensions:
   - admonition
   - pymdownx.details
