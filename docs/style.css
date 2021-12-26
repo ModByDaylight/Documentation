@@ -71,3 +71,18 @@ h1, h2, h3, h4, h5, h6 {
 .admonition.warning .admonition-title {
     background-color: #e18114;
 }
+
+.admonition-title::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: '\f05a  ';
+}
+
+/* fontawesome pseudoelement setup */
+.icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
