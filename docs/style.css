@@ -35,6 +35,16 @@ li::marker {
     background-color: #303030 !important;
 }
 
+.navbar.nav {
+    border: 1px solid #ccc;
+    border-radius: 0.3rem;
+}
+
+.navbar.nav > li {
+    width: calc(100% - 1rem);
+    margin-left: 1rem;
+}
+
 .bs-sidebar ul {
     background-color: #292929;
 }

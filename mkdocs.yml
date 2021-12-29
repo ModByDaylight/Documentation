@@ -7,6 +7,7 @@ extra_css:
   - 'style.css'
 extra_javascript:
   - 'https://kit.fontawesome.com/e7b733cb16.js'
+  - 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.0/umd/popper.min.js'
 markdown_extensions:
   - admonition
   - pymdownx.details
