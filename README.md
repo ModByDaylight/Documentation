@@ -1,3 +1,8 @@
+[![Discord](https://img.shields.io/discord/797070950507872256?label=Discord&logo=discord)](https://discord.gg/FgZVnGBWyg)
+[![GitHub issues](https://img.shields.io/github/issues/ModByDaylight/Documentation?logo=github)](https://github.com/ModByDaylight/Documentation/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/ModByDaylight/Documentation?logo=github)](https://github.com/ModByDaylight/Documentation/pulls)
+[![GitHub contributors](https://img.shields.io/github/contributors/ModByDaylight/Documentation?logo=github)](https://github.com/ModByDaylight/Documentation/graphs/contributors)
+
 # Dead by Daylight Modding Documentation
 
 Documentation for Dead by Daylight modding. The `master` branch is hosted on https://modbydaylight.com.

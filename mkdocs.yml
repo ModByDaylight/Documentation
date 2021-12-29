@@ -5,6 +5,8 @@ theme:
   custom_dir: theme_override/
 extra_css:
   - 'style.css'
+extra_javascript:
+  - 'https://kit.fontawesome.com/e7b733cb16.js'
 markdown_extensions:
   - admonition
   - pymdownx.details
