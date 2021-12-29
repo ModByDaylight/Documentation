@@ -45,6 +45,14 @@ li::marker {
     margin-left: 1rem;
 }
 
+.navbar.nav > li > a, .navbar.nav > li > a:visited {
+    color: #5588ff;
+}
+
+.navbar.nav .dropdown > .dropdown-menu a, .navbar.nav .dropdown > .dropdown-menu a:visited {
+    color: #292929;
+}
+
 .bs-sidebar ul {
     background-color: #292929;
 }
