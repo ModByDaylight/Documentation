@@ -19,7 +19,7 @@
 1. In Fiddler, go to `Tools` → `Options` → `HTTPS`.
 1. Check the boxes "Capture HTTPS CONNECTs", "Decrypt HTTPS traffic", and "Ignore server certificate errors".
 
-    ![](https://media.discordapp.net/attachments/797071900194897960/797524696403935242/unknown.png)
+    ![](/img/screenshots/fiddler-options.png)
 
 1. Click to the pop-up asking to trust Fiddler's certificate. +
 1. Open the Fiddler script editor by going to `Rules` → `Customize Rules`. +
