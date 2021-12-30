@@ -162,6 +162,7 @@
                             <!-- Main navigation -->
                             <ul class="navbar nav navbar-nav">
                             {%- for nav_item in nav %}
+                            {%- if nav_item.title != '3pl' %}
                             {%- if nav_item.children %}
                                 <li class="dropdown{% if nav_item.active %} active{% endif %}">
                                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">{{ nav_item.title }} <b class="caret"></b></a>
@@ -176,6 +177,7 @@
                                     <a href="{{ nav_item.url|url }}" class="nav-link">{{ nav_item.title }}</a>
                                 </li>
                             {%- endif %}
+                            {%- endif %}
                             {%- endfor %}
                             </ul>
                         {%- endif %}
@@ -188,13 +190,7 @@
 
         <footer class="col-md-12">
           {%- block footer %}
-            <hr>
-            {%- if config.copyright %}
-                <p>{{ config.copyright }}</p>
-            {%- endif %}
-            Except where otherwise noted, modbydaylight.com is licensed under the <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU General Public License v3.0</a> (GPLv3).
-            <br>
-            {% trans mkdocs_link='<a href="https://www.mkdocs.org/">MkDocs</a>' %}Documentation built with {{ mkdocs_link }}.{% endtrans %}
+            {%- include "footer.html" %}
           {%- endblock %}
         </footer>
 

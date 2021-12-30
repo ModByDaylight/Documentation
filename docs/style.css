@@ -10,7 +10,6 @@
     --footer-text-color: #495057;
     --link-color: #009dff;
     --link-hover-color: #00b7ff;
-    --link-icon-color: #aaa;
     --nav-tl-text-color: #5588ff;
     --nav-border-color: #ccc;
     --tip-color: #41af46;
@@ -33,12 +32,14 @@ a:hover, a:visited:hover {
 }
 
 [role="main"] a::after {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    font-size: 0.6em;
+    display: inline-block;
+    height: 0.8em;
+    width: 0.8em;
+    margin-left: 0.1em;
     vertical-align: middle;
-    color: var(--link-icon-color);
-    content: ' \f35d';
+    content: '';
+    background-image: url('/img/icons/icons8-external-link.svg');
+    background-size: contain;
 }
 
 a[rel="next"], a[rel="prev"] {
@@ -122,9 +123,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .admonition-title::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: '\f05a  ';
+    position: relative;
+    display: inline-block;
+    height: 1.2em;
+    width: 1.2em;
+    bottom: 0.1em;
+    margin-right: 0.3rem;
+    vertical-align: middle;
+    content: '';
+    background-image: url('/img/icons/icons8-info.svg');
+    background-size: contain;
 }
 
 /* fontawesome pseudoelement setup */

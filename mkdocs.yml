@@ -6,8 +6,7 @@ theme:
 extra_css:
   - 'style.css'
 extra_javascript:
-  - 'https://kit.fontawesome.com/e7b733cb16.js'
-  - 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.0/umd/popper.min.js'
+  - '/scripts/popper.min.js'
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -18,6 +17,7 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
 nav:
+  - '3pl': '3pl.md'
   - Home: index.md
   - Private Server:
     - Private Server: PrivateServer/index.md
