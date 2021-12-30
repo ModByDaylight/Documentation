@@ -10,6 +10,7 @@
     --footer-text-color: #495057;
     --link-color: #009dff;
     --link-hover-color: #00b7ff;
+    --link-icon-color: #aaa;
     --nav-tl-text-color: #5588ff;
     --nav-border-color: #ccc;
     --tip-color: #41af46;
@@ -28,6 +29,16 @@ a, a:visited {
 
 a:hover, a:visited:hover {
     color: var(--link-hover-color);
+    text-decoration: none;
+}
+
+[role="main"] a::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 0.6em;
+    vertical-align: middle;
+    color: var(--link-icon-color);
+    content: ' \f35d';
 }
 
 a[rel="next"], a[rel="prev"] {
