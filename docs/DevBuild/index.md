@@ -10,18 +10,11 @@ Follow the instructions in [Server Setup](Server/Setup.md) or [Fiddler Setup](Fi
 
 ## FAQ
 
-*Is there a newer version of the developer build available?*
-
-No, and there won't be.
-
-*Is it possible to play the developer build on console, Epic Games, Microsoft Store, or Stadia?*
-
-No, the dev build can only be installed on Steam.
-
-*Can I get banned for playing on the developer build?*
-
-Technically it's possible, but the chances are basically zero. If you want to be extra safe, use the server from the [Server Setup](Server/Setup.md) page.
-
-*Can I play public matches?*
-
-No, there's no matchmaking on dev build. You can only play KYF with Steam friends or by yourself.
+- *Is there a newer version of the developer build available?*
+    - No, and there won't be.
+- *Is it possible to play the developer build on console, Epic Games, Microsoft Store, or Stadia?*
+    - No, the dev build can only be installed on Steam.
+- *Can I get banned for playing on the developer build?*
+    - Technically it's possible, but the chances are basically zero. If you want to be extra safe, use the server from the [Server Setup](Server/Setup.md) page.
+- *Can I play public matches?*
+    - No, there's no matchmaking on dev build. You can only play KYF with Steam friends or by yourself.

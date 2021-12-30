@@ -1,42 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
+:root {
+    --background-color-primary: #212121;
+    --background-color-secondary: #303030;
+    --header-color: #5588ff;
+    --light-text-color-primary: #fff;
+    --light-text-color-secondary: #ddd;
+    --dark-text-color: #292929;
+    --footer-text-color: #495057;
+    --link-color: #009dff;
+    --link-hover-color: #00b7ff;
+    --nav-tl-text-color: #5588ff;
+    --nav-border-color: #ccc;
+    --tip-color: #41af46;
+    --note-color: #217ee7;
+    --warning-color: #e18114;
+}
+
 body {
-    background-color: #212121;
+    background-color: var(--background-color-primary);
     font-family: Roboto,sans-serif;
 }
 
 a, a:visited {
-    color: #009dff;
+    color: var(--link-color);
 }
 
-a:hover {
-    color: #00b7ff;
+a:hover, a:visited:hover {
+    color: var(--link-hover-color);
+    text-decoration: none;
+}
+
+[role="main"] a::after {
+    display: inline-block;
+    height: 0.8em;
+    width: 0.8em;
+    margin-left: 0.1em;
+    vertical-align: middle;
+    content: '';
+    background-image: url('/img/icons/icons8-external-link.svg');
+    background-size: contain;
 }
 
 a[rel="next"], a[rel="prev"] {
     display: none;
 }
 
+footer, footer a, footer a:visited {
+    color: var(--footer-text-color);
+}
+
 footer a {
-    color: #495057;
     text-decoration: underline;
 }
 
 p, li {
-    color: #fff;
+    color: var(--light-text-color-primary);
 }
 
 li::marker {
-    color: #ddd;
+    color: var(--light-text-color-secondary);
 }
 
 .navbar {
     background-image: none;
-    background-color: #303030 !important;
+    background-color: var(--background-color-secondary) !important;
 }
 
 .navbar.nav {
-    border: 1px solid #ccc;
+    border: 1px solid var(--nav-border-color);
     border-radius: 0.3rem;
 }
 
@@ -45,16 +77,24 @@ li::marker {
     margin-left: 1rem;
 }
 
+.navbar.nav > li > a, .navbar.nav > li > a:visited {
+    color: var(--nav-tl-text-color);
+}
+
+.navbar.nav .dropdown > .dropdown-menu a, .navbar.nav .dropdown > .dropdown-menu a:visited {
+    color: var(--dark-text-color);
+}
+
 .bs-sidebar ul {
-    background-color: #292929;
+    background-color: var(--background-color-secondary);
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #5588ff;
+    color: var(--header-color);
 }
 
 .admonition.tip, .admonition.note, .admonition.warning {
-    background-color: #303030;
+    background-color: var(--background-color-secondary);
     padding: 0;
     border-radius: 0;
 }
@@ -71,21 +111,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .admonition.tip .admonition-title {
-    background-color: #41af46;
+    background-color: var(--tip-color);
 }
 
 .admonition.note .admonition-title {
-    background-color: #217ee7;
+    background-color: var(--note-color);
 }
 
 .admonition.warning .admonition-title {
-    background-color: #e18114;
+    background-color: var(--warning-color);
 }
 
 .admonition-title::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: '\f05a  ';
+    position: relative;
+    display: inline-block;
+    height: 1.2em;
+    width: 1.2em;
+    bottom: 0.1em;
+    margin-right: 0.3rem;
+    vertical-align: middle;
+    content: '';
+    background-image: url('/img/icons/icons8-info.svg');
+    background-size: contain;
 }
 
 /* fontawesome pseudoelement setup */
