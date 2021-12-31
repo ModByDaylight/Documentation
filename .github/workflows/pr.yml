@@ -34,6 +34,7 @@ jobs:
 
   push:
     name: Push
+    needs: build
     runs-on: ubuntu-latest
     if: contains(github.event.pull_request.labels.*.name, 'safe to preview')
     steps:
@@ -52,10 +53,28 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/modbydaylight/documentation-clone:pr${{ github.event.number }}
+          tags: ghcr.io/modbydaylight/documentation:pr${{ github.event.number }}
 
       - name: Update Docker image
         uses: distributhor/workflow-webhook@v2
         env:
           webhook_url: ${{ secrets.WEBHOOK_URL_PR }}${{ github.event.number }}
           webhook_secret: ${{ secrets.WEBHOOK_SECRET }}
+
+  comment:
+    name: Comment on PR
+    needs: push
+    runs-on: ubuntu-latest
+    if: contains(github.event.pull_request.labels.*.name, 'safe to preview')
+    steps:
+      - name: Get Port
+        env:
+          prnum: ${{ github.event.number }}
+        run: |
+          echo "port=$(($prnum+10000))" >> $GITHUB_ENV
+
+      - name: Comment
+        uses: thollander/actions-comment-pull-request@v1
+        with:
+          message: 'This pull request can be previewed at http://modbydaylight.com:${{ env.port }}/'
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
