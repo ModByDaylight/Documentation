@@ -248,19 +248,16 @@ h1:hover .headerlink, h2:hover .headerlink, h3:hover .headerlink, h4:hover .head
 .admonition.note {
     color: #3a87ad;
     background-color: #d9edf7;
-    border-color: #bce8f1;
 }
 
 .admonition.warning {
     color: #c09853;
     background-color: #fcf8e3;
-    border-color: #fbeed5;
 }
 
 .admonition.danger {
     color: #b94a48;
     background-color: #f2dede;
-    border-color: #eed3d7;
 }
 
 .admonition-title {
