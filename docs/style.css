@@ -138,18 +138,6 @@ h1, h2, h3, h4, h5, h6 {
     background-color: var(--warning-color-translucent);
 }
 
-/* .admonition.tip .admonition-title {
-    background-color: var(--tip-color);
-}
-
-.admonition.note .admonition-title {
-    background-color: var(--note-color);
-}
-
-.admonition.warning .admonition-title {
-    background-color: var(--warning-color);
-} */
-
 .admonition-title::before {
     position: relative;
     display: inline-block;
