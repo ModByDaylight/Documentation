@@ -49,7 +49,6 @@ body::before {
 }
 
 body > .container {
-    margin-top: 20px;
     min-height: 400px;
 }
 

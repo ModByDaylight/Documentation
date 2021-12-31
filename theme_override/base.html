@@ -157,6 +157,7 @@
             <div class="row">
                 {%- block content %}
                     <div class="col-md-3">
+                        <div id="nav-container">
                         {%- block site_nav %}
                         {%- if nav|length>1 %}
                             <!-- Main navigation -->
@@ -182,6 +183,7 @@
                             </ul>
                         {%- endif %}
                         {%- endblock %}
+                        </div>
                     </div>
                     <div class="col-md-9" role="main">{% include "content.html" %}</div>
                 {%- endblock %}
