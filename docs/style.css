@@ -149,12 +149,3 @@ h1, h2, h3, h4, h5, h6 {
     background-image: url('/img/icons/icons8-info.svg');
     background-size: contain;
 }
-
-/* fontawesome pseudoelement setup */
-.icon::before {
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-}
