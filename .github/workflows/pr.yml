@@ -34,6 +34,7 @@ jobs:
 
   push:
     name: Push
+    needs: build
     runs-on: ubuntu-latest
     if: contains(github.event.pull_request.labels.*.name, 'safe to preview')
     steps:
@@ -52,7 +53,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/modbydaylight/documentation-clone:pr${{ github.event.number }}
+          tags: ghcr.io/modbydaylight/documentation:pr${{ github.event.number }}
 
       - name: Update Docker image
         uses: distributhor/workflow-webhook@v2
