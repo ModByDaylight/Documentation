@@ -150,3 +150,18 @@ h1, h2, h3, h4, h5, h6 {
     background-image: url('/img/icons/icons8-info.svg');
     background-size: contain;
 }
+
+/* hide desktop nav by default */
+#nav-container {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    /* display desktop nav and hide mobile nav */
+    #nav-container {
+        display: block;
+    }
+    #nav-container-mobile {
+        display: none;
+    }
+}
