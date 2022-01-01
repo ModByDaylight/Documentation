@@ -1,0 +1,19 @@
+name: PR Close
+
+on:
+  pull_request:
+    branches:
+      - dev
+    types:
+      - closed
+
+jobs:
+  close_preview:
+    name: Close Preview
+    runs-on: ubuntu-latest
+    steps:
+      - name: Close Preview
+        uses: distributhor/workflow-webhook@v2
+        env:
+          webhook_url: ${{ secrets.WEBHOOK_URL_PR_CLOSE }}${{ github.event.number }}
+          webhook_secret: ${{ secrets.WEBHOOK_SECRET }}
