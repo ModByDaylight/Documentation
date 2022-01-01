@@ -23,11 +23,11 @@ n.VerifyPeer=false
 ```
 1. Download and install [NodeJS 14.x.x](https://nodejs.org/en/).
 1. Download and extract the latest release of the [server](https://github.com/Preston159/dbd-server/releases) using the "Source code (zip)" link.
-![](/img/screenshots/dev-server-release.png)
+![](/img/screenshots/DevBuild/dev-server-release.png)
 1. Navigate to the folder where you extracted the server files and run `setup.bat`. You should see an output like this:
-![](/img/screenshots/dev-server-setup.bat.png)
+![](/img/screenshots/DevBuild/dev-server-setup.bat.png)
 1. Run `run.bat` to start the server. You should see an output like this:
-![](/img/screenshots/dev-server-run.bat.png)
+![](/img/screenshots/DevBuild/dev-server-run.bat.png)
 1. You should be done, so start your game! Repeat step 6 each time you want to start the server.
 
 ## Common Errors
