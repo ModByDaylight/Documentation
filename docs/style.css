@@ -151,6 +151,14 @@ h1, h2, h3, h4, h5, h6 {
     background-size: contain;
 }
 
+#mkdocs-search-results p {
+    color: var(--dark-text-color);
+}
+
+#mkdocs-search-results p::after {
+    content: '\2026';
+}
+
 /* hide desktop nav by default */
 #nav-container {
     display: none;
