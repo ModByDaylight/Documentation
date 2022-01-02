@@ -46,7 +46,6 @@
 
       {%- block styles %}
         <link href="{{ 'css/bootstrap.min.css'|url }}" rel="stylesheet">
-        <link href="{{ 'css/font-awesome.min.css'|url }}" rel="stylesheet">
         <link href="{{ 'css/base.css'|url }}" rel="stylesheet">
         {%- if config.theme.highlightjs %}
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/{{ config.theme.hljs_style }}.min.css">
@@ -124,24 +123,9 @@
                         {%- if 'search' in config['plugins'] %}
                         <li class="nav-item">
                             <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
-                                <i class="fa fa-search"></i> {% trans %}Search{% endtrans %}
+                                <i class="icon icon-search"></i> {% trans %}Search{% endtrans %}
                             </a>
                         </li>
-                        {%- endif %}
-                      {%- endblock %}
-
-                      {%- block next_prev %}
-                        {%- if page and (page.next_page or page.previous_page) %}
-                            <li class="nav-item">
-                                <a rel="prev" {% if page.previous_page %}href="{{ page.previous_page.url|url }}" class="nav-link"{% else %}class="nav-link disabled"{% endif %}>
-                                    <i class="fa fa-arrow-left"></i> {% trans %}Previous{% endtrans %}
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a rel="next" {% if page.next_page %}href="{{ page.next_page.url|url }}" class="nav-link"{% else %}class="nav-link disabled"{% endif %}>
-                                    {% trans %}Next{% endtrans %} <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
                         {%- endif %}
                       {%- endblock %}
 
@@ -150,11 +134,11 @@
                             <li class="nav-item">
                                 <a href="{{ page.edit_url }}" class="nav-link">
                                     {%- if config.repo_name == 'GitHub' -%}
-                                        <i class="fa fa-github"></i> {% trans repo_name=config.repo_name %}Edit on {{ repo_name }}{% endtrans %}
+                                        <i class="icon icon-github"></i> {% trans repo_name=config.repo_name %}Edit on {{ repo_name }}{% endtrans %}
                                     {%- elif config.repo_name == 'Bitbucket' -%}
-                                        <i class="fa fa-bitbucket"></i> {% trans repo_name=config.repo_name %}Edit on {{ repo_name }}{% endtrans %}
+                                        {% trans repo_name=config.repo_name %}Edit on {{ repo_name }}{% endtrans %}
                                     {%- elif config.repo_name == 'GitLab' -%}
-                                        <i class="fa fa-gitlab"></i> {% trans repo_name=config.repo_name %}Edit on {{ repo_name }}{% endtrans %}
+                                        {% trans repo_name=config.repo_name %}Edit on {{ repo_name }}{% endtrans %}
                                     {%- else -%}
                                     {% trans repo_name=config.repo_name%}Edit on {{ repo_name }}{% endtrans %}
                                     {%- endif -%}
@@ -164,11 +148,11 @@
                             <li class="nav-item">
                                 <a href="{{ config.repo_url }}" class="nav-link">
                                     {%- if config.repo_name == 'GitHub' -%}
-                                        <i class="fa fa-github"></i> {{ config.repo_name }}
+                                        <i class="icon icon-github"></i> {{ config.repo_name }}
                                     {%- elif config.repo_name == 'Bitbucket' -%}
-                                        <i class="fa fa-bitbucket"></i> {{ config.repo_name }}
+                                        {{ config.repo_name }}
                                     {%- elif config.repo_name == 'GitLab' -%}
-                                        <i class="fa fa-gitlab"></i> {{ config.repo_name }}
+                                        {{ config.repo_name }}
                                     {%- else -%}
                                     {{ config.repo_name }}
                                     {%- endif -%}

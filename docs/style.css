@@ -165,3 +165,24 @@ h1, h2, h3, h4, h5, h6 {
         display: none;
     }
 }
+
+/* icons */
+
+.icon::before {
+    position: relative;
+    display: inline-block;
+    height: 1.2em;
+    width: 1.2em;
+    bottom: 0.1em;
+    vertical-align: middle;
+    content: '';
+    background-size: contain;
+}
+
+.icon-github::before {
+    background-image: url('/img/icons/icons8-github.svg');
+}
+
+.icon-search::before {
+    background-image: url('/img/icons/icons8-search.svg');
+}
