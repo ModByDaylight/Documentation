@@ -1,6 +1,13 @@
 const gulp = require('gulp')
 const htmlbeautify = require('gulp-html-beautify')
+const sass = require('gulp-sass')(require('sass'))
 const { renameSync, mkdirSync, rmSync } = require('fs')
+
+gulp.task('buildstyles', () => {
+    return gulp.src('./styles/**/*.scss')
+            .pipe(sass({ outputStyle: 'compressed', sourceComments: false }).on('error', sass.logError))
+            .pipe(gulp.dest('./docs/'))
+})
 
 gulp.task('setup', done => {
     rmSync('./build/', { recursive: true, force: true })

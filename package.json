@@ -9,8 +9,11 @@
     "presetup": "npm i",
     "setup": "pip install mkdocs mkdocs-material",
     "postsetup": "npx ts-node postsetup.ts",
+    "preserve": "npx gulp buildstyles",
     "serve": "mkdocs serve",
+    "preserve:theme": "npx gulp buildstyles",
     "serve:theme": "mkdocs serve --watch-theme",
+    "prebuild": "npx gulp buildstyles",
     "build": "mkdocs build",
     "postbuild": "npx gulp"
   },
@@ -21,6 +24,8 @@
     "@types/node": "^17.0.8",
     "gulp": "^4.0.2",
     "gulp-html-beautify": "^1.0.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.47.0",
     "typescript": "^4.5.4"
   },
   "dependencies": {
