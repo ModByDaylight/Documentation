@@ -15,7 +15,7 @@
     "serve:theme": "mkdocs serve --watch-theme",
     "prebuild": "npx gulp buildstyles",
     "build": "mkdocs build",
-    "postbuild": "npx gulp",
+    "postbuild": "npx gulp postbuild",
     "build-and-serve": "npm run build && python3 -m http.server --directory site/"
   },
   "author": "",

@@ -3,11 +3,7 @@ const htmlbeautify = require('gulp-html-beautify')
 const sass = require('gulp-sass')(require('sass'))
 const { renameSync, mkdirSync, rmSync } = require('fs')
 
-gulp.task('buildstyles', () => {
-    return gulp.src('./styles/**/*.scss')
-            .pipe(sass({ outputStyle: 'compressed', sourceComments: false }).on('error', sass.logError))
-            .pipe(gulp.dest('./docs/'))
-})
+// internal tasks
 
 gulp.task('setup', done => {
     rmSync('./build/', { recursive: true, force: true })
@@ -30,4 +26,12 @@ gulp.task('htmlbeautify', () => {
             .pipe(gulp.dest('./site/', { overwrite: true }))
 })
 
-gulp.task('default', gulp.series('setup', 'copy', 'htmlbeautify'))
+// external tasks
+
+gulp.task('buildstyles', () => {
+    return gulp.src('./styles/**/*.scss')
+            .pipe(sass({ outputStyle: 'compressed', sourceComments: false }).on('error', sass.logError))
+            .pipe(gulp.dest('./docs/'))
+})
+
+gulp.task('postbuild', gulp.series('setup', 'copy', 'htmlbeautify'))
