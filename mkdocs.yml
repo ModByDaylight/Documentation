@@ -1,6 +1,9 @@
-site_name: Dead by Daylight Modding Documentation
+site_name: ModByDaylight Docs
+site_description: Dead by Daylight Modding Documentation
+embed_image: /img/logo.png
 site_url: https://modbydaylight.com/
 repo_url: https://github.com/ModByDaylight/Documentation
+
 theme:
   name: mkdocs
   custom_dir: theme_override/

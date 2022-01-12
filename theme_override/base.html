@@ -33,8 +33,8 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        {% if page and page.is_homepage %}<meta name="description" content="{{ config['site_description'] }}">{% endif %}
-        {% if config.site_author %}<meta name="author" content="{{ config.site_author }}">{% endif %}
+        {% if page and page.is_homepage %}<meta name="description" content="Dead by Daylight modding documentation">{% endif %}
+        <meta name="author" content="ModByDaylight Team">
         {% if page and page.canonical_url %}<link rel="canonical" href="{{ page.canonical_url }}">{% endif %}
         {% if config.site_favicon %}<link rel="shortcut icon" href="{{ config.site_favicon|url }}">
         {% else %}<link rel="shortcut icon" href="{{ 'img/favicon.ico'|url }}">{% endif %}
@@ -43,6 +43,12 @@
       {%- block htmltitle %}
         <title>{% if page and page.title and not page.is_homepage %}{{ page.title }} - {% endif %}{{ config.site_name }}</title>
       {%- endblock %}
+
+        <meta content="{{ config.site_name }}" property="og:title" />
+        <meta content="{{ config.site_description }}" property="og:description" />
+        <meta content="{{ config.site_url }}" property="og:url" />
+        <meta content="{{ config.embed_image }}" property="og:image" />
+        <meta content="#4752c4" data-react-helmet="true" name="theme-color" />
 
       {%- block styles %}
         <link href="{{ 'css/bootstrap.min.css'|url }}" rel="stylesheet">
