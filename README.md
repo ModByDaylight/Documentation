@@ -26,3 +26,5 @@ Instructions:
 1. Open a terminal window in the documentation root directory and run `npm run setup` to install necessary dependencies. 
 If the installer complains about the installation directory not being included in the path, it may be necessary to add it.
 1. Run `npm run serve` to launch a webserver at http://localhost:8000, which you can then connect to with a browser. The webserver will watch for changes to documentation files and automatically update and refresh your browser as you make changes. You may also run `npm run build` which will generate output HTML in the `site` directory.
+    > **NOTE**: If the theme is being modified, run `npm run serve:theme` to make the server also watch for changes to theme files. Additionally, because stylesheets are built from SCSS files, changes to files in the `styles` directory will not be automatically updated. Running `npm run build` will automatically update them, or you can run `npx gulp buildstyles` to only update the CSS.
+1. Run `npm run build-and-serve` and visit http://localhost:8000 to ensure your changes will display correctly once uploaded.
