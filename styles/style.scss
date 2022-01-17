@@ -160,13 +160,13 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-/* hide desktop nav by default */
+// hide desktop nav by default
 #nav-container {
     display: none;
 }
 
 @media (min-width: 768px) {
-    /* display desktop nav and hide mobile nav */
+    // display desktop nav and hide mobile nav
     #nav-container {
         display: block;
     }
