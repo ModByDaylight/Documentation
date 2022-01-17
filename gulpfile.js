@@ -19,7 +19,8 @@ gulp.task('copy', () => {
 
 gulp.task('htmlbeautify', () => {
     const beautifyOptions = {
-        indentSize: 4,
+        indent_size: 1,
+        indent_char: '\t',
     }
     return gulp.src('./build/**/*.html')
             .pipe(htmlbeautify(beautifyOptions))
