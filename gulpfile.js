@@ -14,7 +14,7 @@ gulp.task('setup', done => {
 
 gulp.task('copy', () => {
     return gulp.src('./build/**/*')
-            .pipe(gulp.dest('./site/'))
+        .pipe(gulp.dest('./site/'))
 })
 
 gulp.task('htmlbeautify', () => {
@@ -23,16 +23,16 @@ gulp.task('htmlbeautify', () => {
         indent_char: '\t',
     }
     return gulp.src('./build/**/*.html')
-            .pipe(htmlbeautify(beautifyOptions))
-            .pipe(gulp.dest('./site/', { overwrite: true }))
+        .pipe(htmlbeautify(beautifyOptions))
+        .pipe(gulp.dest('./site/', { overwrite: true }))
 })
 
 // external tasks
 
 gulp.task('buildstyles', () => {
     return gulp.src('./styles/**/*.scss')
-            .pipe(sass({ outputStyle: 'compressed', sourceComments: false }).on('error', sass.logError))
-            .pipe(gulp.dest('./docs/'))
+        .pipe(sass({ outputStyle: 'compressed', sourceComments: false }).on('error', sass.logError))
+        .pipe(gulp.dest('./docs/'))
 })
 
 gulp.task('postbuild', gulp.series('setup', 'copy', 'htmlbeautify'))
