@@ -8,7 +8,6 @@
   "scripts": {
     "presetup": "npm i",
     "setup": "pip install mkdocs mkdocs-material",
-    "postsetup": "npx ts-node postsetup.ts",
     "preserve": "npx gulp buildstyles",
     "serve": "mkdocs serve",
     "preserve:theme": "npx gulp buildstyles",
