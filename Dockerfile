@@ -5,7 +5,7 @@ EXPOSE 8080:80
 WORKDIR /documentation
 ADD docs/ /documentation/docs/
 ADD theme_override/ /documentation/theme_override/
-ADD mkdocs.yml package.json /documentation/
+ADD mkdocs.yml gulpfile.js package.json /documentation/
 
 RUN npm run setup
 RUN npm run build
