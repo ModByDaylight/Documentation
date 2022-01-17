@@ -87,10 +87,10 @@ li::marker {
 .navbar.nav > li {
     width: calc(100% - 1rem);
     margin-left: 1rem;
-}
 
-.navbar.nav > li > a, .navbar.nav > li > a:visited {
-    color: $nav-tl-text-color;
+    > a, > a:visited {
+        color: $nav-tl-text-color;
+    }
 }
 
 .navbar.nav .dropdown > .dropdown-menu a, .navbar.nav .dropdown > .dropdown-menu a:visited {
@@ -114,41 +114,42 @@ h1, h2, h3, h4, h5, h6 {
         padding: 1rem 0.5rem 0.5rem 1rem;
         border-top-left-radius: 0.4rem;
         border-bottom-left-radius: 0.4rem;
-
-        .admonition-title {
-            width: 100%;
-            text-transform: uppercase;
-            font-weight: bold;
-        }
+        border-left: 3px solid;
     }
 
     &.tip {
-        border-left: 3px solid $tip-color;
+        border-left-color: $tip-color;
         background-color: $tip-color-translucent;
     }
 
     &.note {
-        border-left: 3px solid $note-color;
+        border-left-color: $note-color;
         background-color: $note-color-translucent;
     }
 
     &.warning {
-        border-left: 3px solid $warning-color;
+        border-left-color: $warning-color;
         background-color: $warning-color-translucent;
     }
 }
 
-.admonition-title::before {
-    position: relative;
-    display: inline-block;
-    height: 1.2em;
-    width: 1.2em;
-    bottom: 0.1em;
-    margin-right: 0.3rem;
-    vertical-align: middle;
-    content: '';
-    background-image: url('/img/icons/icons8-info.svg');
-    background-size: contain;
+.admonition-title {
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    &::before {
+        position: relative;
+        display: inline-block;
+        height: 1.2em;
+        width: 1.2em;
+        bottom: 0.1em;
+        margin-right: 0.3rem;
+        vertical-align: middle;
+        content: '';
+        background-image: url('/img/icons/icons8-info.svg');
+        background-size: contain;
+    }
 }
 
 #mkdocs-search-results p {
