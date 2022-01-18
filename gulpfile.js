@@ -35,4 +35,8 @@ gulp.task('buildstyles', () => {
         .pipe(gulp.dest('./docs/'))
 })
 
+gulp.task('watchstyles', () => {
+    gulp.watch('./styles/**/*.scss', gulp.task('buildstyles'))
+})
+
 gulp.task('postbuild', gulp.series('setup', 'copy', 'htmlbeautify'))
