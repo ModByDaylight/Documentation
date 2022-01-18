@@ -38,7 +38,7 @@ a, a:visited {
     padding-top: 20px;
     min-height: calc(100vh - $header-height);
 
-    a::after {
+    a[href]::after {
         display: inline-block;
         height: 0.8em;
         width: 0.8em;
