@@ -20,7 +20,7 @@ This guide will show you how to replace existing audio files in Dead By Daylight
 1. Launch Wwise under Versions Installed. Create a new project by pressing New and give a title to the project. Under Import factory assets to project click Select None and press OK. 
 1. Navigate to `Project` → `Project Settings...` → `Source Settings` → `Default Conversion Settings` and click on the three dots. Select Vorbis Quality High and press OK.
 
-![](https://images-ext-1.discordapp.net/external/IYAFs5jubGFxID_ZaX3J7huHWfsMFzifTO1HM6YjTCY/https/media.discordapp.net/attachments/834873477500371004/844330346953965568/unknown.png)
+    ![](https://images-ext-1.discordapp.net/external/IYAFs5jubGFxID_ZaX3J7huHWfsMFzifTO1HM6YjTCY/https/media.discordapp.net/attachments/834873477500371004/844330346953965568/unknown.png)
 
 ## Part 2: Importing and Exporting Audio
 
@@ -28,11 +28,11 @@ This guide will show you how to replace existing audio files in Dead By Daylight
 1. To export your audio file(s), navigate to `Project` → `Convert All Audio Files...` and press convert. This will convert all of your .wav audio files into .wem files.
 1. To find your exported audio, navigate to `Project` → `File Manager...`, right click on Project Folder, and click on Open Containing Folder.
 
-![](https://images-ext-2.discordapp.net/external/-hYFfeByABK4sk6JZIRK2hNi1qG5Nzb5BI1L-hcFEyI/https/media.discordapp.net/attachments/834873477500371004/844330383549923328/unknown.png)
+    ![](https://images-ext-2.discordapp.net/external/-hYFfeByABK4sk6JZIRK2hNi1qG5Nzb5BI1L-hcFEyI/https/media.discordapp.net/attachments/834873477500371004/844330383549923328/unknown.png)
 
-4. A new window will be opened in File Explorer. Inside the folder, navigate to `.cache/Windows/SFX`. This is where your exported .wem files are located.
+1. A new window will be opened in File Explorer. Inside the folder, navigate to `.cache/Windows/SFX`. This is where your exported .wem files are located.
 
-![](https://media.discordapp.net/attachments/917649484450775061/920230526374273054/unknown.png)
+    ![](https://media.discordapp.net/attachments/917649484450775061/920230526374273054/unknown.png)
 
 ## Part 3: Finding and Replacing Audio (.wem files)
 
@@ -41,26 +41,25 @@ This guide will show you how to replace existing audio files in Dead By Daylight
 1. Select `Unpack Single Pak` then enter the number 2. This will unpack the `pakchunk2-[PlatformName].pak` file which contains all of the audio files.
 1. Navigate to the unpacked audio folder. (`[PlatformName]/Content/WwiseAudio/Windows`)
 
-![](https://media.discordapp.net/attachments/917649484450775061/920231475155193856/unknown.png)
+    ![](https://media.discordapp.net/attachments/917649484450775061/920231475155193856/unknown.png)
 
-5. Navigate to the file called `SoundbanksInfo.xml` and open it in any text editor.
-1. Use CTRL + F to easily search for the name of the audio file you want to replace.
-For example, you would search for `lobby_survivor` if you wanted to replace the Survivor Lobby Music.
-```xml
-<File Id="933117239" Language="SFX">
-   <ShortName>Music\mu_menu_lobby_survivor.wav</ShortName>
-   <Path>SFX\Music\mu_menu_lobby_survivor_0BC91DCF.wem</Path>
-</File>
-```
-7. Copy the File Id of the sound and search for it in the Dead By Daylight audio folder.
+1. Navigate to the file called `SoundbanksInfo.xml` and open it in any text editor.
+1. Use CTRL + F to easily search for the name of the audio file you want to replace. For example, you would search for `lobby_survivor` if you wanted to replace the Survivor Lobby Music.
+    ```xml
+    <File Id="933117239" Language="SFX">
+       <ShortName>Music\mu_menu_lobby_survivor.wav</ShortName>
+       <Path>SFX\Music\mu_menu_lobby_survivor_0BC91DCF.wem</Path>
+    </File>
+    ```
+1. Copy the File Id of the sound and search for it in the Dead By Daylight audio folder.
 
-![](https://media.discordapp.net/attachments/917649484450775061/920231741136969768/unknown.png)
+    ![](https://media.discordapp.net/attachments/917649484450775061/920231741136969768/unknown.png)
 
-8. Rename your exported .wem file from Wwise to the File Id you searched in the audio folder.
+1. Rename your exported .wem file from Wwise to the File Id you searched in the audio folder.
 
-![](https://media.discordapp.net/attachments/917649484450775061/920232046754951168/unknown.png)
+    ![](https://media.discordapp.net/attachments/917649484450775061/920232046754951168/unknown.png)
 
-9. Place the .wem file in the same path as the original and package as usual.
+1. Place the .wem file in the same path as the original and package as usual.
 
 ## Part 4: Finding and Replacing Audio (.bnk files)
 
@@ -70,11 +69,11 @@ For example, you would search for `lobby_survivor` if you wanted to replace the 
 1. Navigate to the unpacked audio folder. (`[PlatformName]/Content/WwiseAudio/Windows`)
 1. Drag and drop the .bnk file you want to edit into RExplorer. A list of all containing .wem files will be previewed.
 
-![](https://images-ext-1.discordapp.net/external/B03yd234VcrKCjf0yZzDG8bLkMJAyPReNhJ7fUDpZiU/https/media.discordapp.net/attachments/834873477500371004/844330623333957632/unknown.png)
+    ![](https://images-ext-1.discordapp.net/external/B03yd234VcrKCjf0yZzDG8bLkMJAyPReNhJ7fUDpZiU/https/media.discordapp.net/attachments/834873477500371004/844330623333957632/unknown.png)
+    
+    Clicking on a .wem file in RExplorer will play a preview of the audio. The length of the audio file will be displayed at the bottom of the preview.
 
-Clicking on a .wem file in RExplorer will play a preview of the audio. The length of the audio file will be displayed at the bottom of the preview.
-
-6. Find the File Id of the .wem file you would like to replace.
+1. Find the File Id of the .wem file you would like to replace.
 1. Now open BnkEditor and drag and drop the .bnk file you want to edit and press Enter.
 1. Drag and drop the .wem file you want to replace with the audio you previewed in RExplorer and press Enter.
 1. Search for the File Id of the .wem file you previewed in RExplorer in the list of .wem files in BnkEditor.
