@@ -24,7 +24,7 @@ nav:
   - Home: index.md
   - Development:
     - Development: Development/index.md
-    - Resources: Development/ModInstallation.md
+    - Resources: Development/Resources.md
     - Unreal Engine:
       - Unreal Engine: Development/UnrealEngine/index.md
       - Project Setup: Development/UnrealEngine/ProjectSetup.md
