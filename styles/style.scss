@@ -19,6 +19,8 @@ $note-color: #217ee7;
 $note-color-translucent: #217ee760;
 $warning-color: #e18114;
 $warning-color-translucent: #e1811460;
+$code-padding: 0.5em;
+$code-ln-width: 2em;
 
 body {
     background-color: $background-color-primary;
@@ -38,7 +40,9 @@ a, a:visited {
     padding-top: 20px;
     min-height: calc(100vh - $header-height);
 
-    a[href]::after {
+    // add icon after links with `href' attribute
+    // ignore links with from code lines (starting with `#__`)
+    a[href]:not([href^="#__"])::after {
         display: inline-block;
         height: 0.8em;
         width: 0.8em;
@@ -47,6 +51,34 @@ a, a:visited {
         content: '';
         background-image: url('/img/icons/icons8-external-link.svg');
         background-size: contain;
+    }
+}
+
+code.hljs {
+    counter-reset: line-number;
+    position: relative;
+
+    &::before {
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        background-color: $background-color-secondary;
+        width: $code-ln-width;
+        content: '';
+    }
+
+    a::before {
+        counter-increment: line-number;
+        content: counter(line-number) ".";
+        display: inline-block;
+        position: relative;
+        background-color: $background-color-secondary;
+        color: $light-text-color-primary;
+        padding-left: 0.2em;
+        margin-right: 0.5em;
+        width: calc($code-ln-width - $code-padding);
     }
 }
 
