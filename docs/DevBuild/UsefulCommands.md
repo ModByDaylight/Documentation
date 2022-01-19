@@ -30,7 +30,7 @@
 | `DBD_AddHP` | Adds one health state to the survivor.
 | `DBD_RemoveHP` | Removes one health state from the survivor.
 | `DBD_SpawnCamperByName <name>` | Spawns a survivor by the name you type (Ex: `DBD_SpawnCamperByName Jake`)
-| `DBD_SpawnCharacter <id>` | Spawns a killer or survivor. (Ex: `DBD_SpawnCharacter 268435456 false` will spawn The Trapper. Other parameters can be changed, such as outfit selection.
+| `DBD_SpawnCharacter <id>` | Spawns a killer or survivor. (Ex: `DBD_SpawnCharacter 268435456 false` will spawn The Trapper. Other parameters can be changed, such as outfit selection. A full list of character IDs can be found [here](CharacterIds.md).
 
 !!! note
 
