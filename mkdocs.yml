@@ -12,6 +12,7 @@ extra_css:
   - 'style.css'
 extra_javascript:
   - '/scripts/popper.min.js'
+  - '/scripts/main.js'
 markdown_extensions:
   - admonition
   - pymdownx.details
