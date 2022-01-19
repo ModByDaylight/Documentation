@@ -52,6 +52,14 @@ a, a:visited {
         background-image: url('/img/icons/icons8-external-link.svg');
         background-size: contain;
     }
+
+    th {
+        color: $h-color;
+    }
+
+    td {
+        color: $light-text-color-primary;
+    }
 }
 
 code.hljs {
