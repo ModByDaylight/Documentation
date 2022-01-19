@@ -1,8 +1,9 @@
 site_name: Mod By Daylight Docs
 site_description: Dead by Daylight Modding Documentation
-embed_image: /img/logo.png
 site_url: https://modbydaylight.com/
 repo_url: https://github.com/ModByDaylight/Documentation
+extra:
+  embed_image: /img/logo.png
 
 theme:
   name: mkdocs
@@ -11,6 +12,7 @@ extra_css:
   - 'style.css'
 extra_javascript:
   - '/scripts/popper.min.js'
+  - '/scripts/main.js'
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -60,3 +62,4 @@ nav:
     - Console Usage: DevBuild/ConsoleUsage.md
     - Advanced Console Usage: DevBuild/AdvancedConsoleUsage.md
     - Useful Commands: DevBuild/UsefulCommands.md
+    - Character IDs: DevBuild/CharacterIds.md

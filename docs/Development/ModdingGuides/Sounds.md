@@ -63,13 +63,13 @@ This guide will show you how to replace existing audio files in Dead By Daylight
 
 ## Part 4: Finding and Replacing Audio (.bnk files)
 
-1. Download and extract the latest release of the https://github.com/BrandonItaly/DBDUnpacker/releases/latest[DBD Unpacker] from GitHub.
+1. Download and extract the latest release of the [DBD Unpacker](https://github.com/BrandonItaly/DBDUnpacker/releases/latest) from GitHub.
 1. Open `DBDUnpacker.bat` and enter your Dead by Daylight game path.
 1. Select `Unpack Single Pak` then enter the number 2. This will unpack the `pakchunk2-[PlatformName].pak` file which contains all of the audio files.
 1. Navigate to the unpacked audio folder. (`[PlatformName]/Content/WwiseAudio/Windows`)
 1. Drag and drop the .bnk file you want to edit into RExplorer. A list of all containing .wem files will be previewed.
 
-    ![](https://images-ext-1.discordapp.net/external/B03yd234VcrKCjf0yZzDG8bLkMJAyPReNhJ7fUDpZiU/https/media.discordapp.net/attachments/834873477500371004/844330623333957632/unknown.png)
+    ![](https://media.discordapp.net/attachments/834873477500371004/844330623333957632/unknown.png)
     
     Clicking on a .wem file in RExplorer will play a preview of the audio. The length of the audio file will be displayed at the bottom of the preview.
 
