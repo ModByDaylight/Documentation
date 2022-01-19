@@ -33,8 +33,8 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        {% if page and page.is_homepage %}<meta name="description" content="{{ config['site_description'] }}">{% endif %}
-        {% if config.site_author %}<meta name="author" content="{{ config.site_author }}">{% endif %}
+        {% if page and page.is_homepage %}<meta name="description" content="Dead by Daylight modding documentation">{% endif %}
+        <meta name="author" content="ModByDaylight Team">
         {% if page and page.canonical_url %}<link rel="canonical" href="{{ page.canonical_url }}">{% endif %}
         {% if config.site_favicon %}<link rel="shortcut icon" href="{{ config.site_favicon|url }}">
         {% else %}<link rel="shortcut icon" href="{{ 'img/favicon.ico'|url }}">{% endif %}
@@ -44,9 +44,14 @@
         <title>{% if page and page.title and not page.is_homepage %}{{ page.title }} - {% endif %}{{ config.site_name }}</title>
       {%- endblock %}
 
+        <meta content="{{ config.site_name }}" property="og:title" />
+        <meta content="{{ config.site_description }}" property="og:description" />
+        <meta content="{{ config.site_url }}" property="og:url" />
+        <meta content="{{ config.embed_image }}" property="og:image" />
+        <meta content="#4752c4" data-react-helmet="true" name="theme-color" />
+
       {%- block styles %}
         <link href="{{ 'css/bootstrap.min.css'|url }}" rel="stylesheet">
-        <link href="{{ 'css/font-awesome.min.css'|url }}" rel="stylesheet">
         <link href="{{ 'css/base.css'|url }}" rel="stylesheet">
         {%- if config.theme.highlightjs %}
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/{{ config.theme.hljs_style }}.min.css">
@@ -78,70 +83,55 @@
         <div class="navbar fixed-top navbar-expand-lg navbar-{% if config.theme.nav_style == "light" %}light{% else %}dark{% endif %} bg-{{ config.theme.nav_style }}">
             <div class="container">
 
-                {%- block site_name %}
+              {%- block site_name %}
                 <a class="navbar-brand" href="{{ nav.homepage.url|url }}">{{ config.site_name }}</a>
-                {%- endblock %}
+              {%- endblock %}
 
-                {%- if nav|length>1 or (page and (page.next_page or page.previous_page)) or config.repo_url %}
+              {%- if nav|length>1 or (page and (page.next_page or page.previous_page)) or config.repo_url %}
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                {%- endif %}
+              {%- endif %}
 
                 <!-- Expanded navigation -->
                 <div id="navbar-collapse" class="navbar-collapse collapse">
-                    {%- block site_nav_mobile %}
+                  {%- block site_nav_mobile %}
                     {%- if nav|length>1 %}
                         <!-- Main mobile navigation -->
                         <div id="nav-container-mobile">
                             <ul class="nav navbar-nav">
-                            {%- for nav_item in nav %}
-                            {%- if nav_item.title != '3pl' %}
-                            {%- if nav_item.children %}
-                                <li class="dropdown{% if nav_item.active %} active{% endif %}">
-                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">{{ nav_item.title }} <b class="caret"></b></a>
-                                    <ul class="dropdown-menu">
-                                    {%- for nav_item in nav_item.children %}
-                                        {% include "nav-sub.html" %}
-                                    {%- endfor %}
-                                    </ul>
-                                </li>
-                            {%- else %}
-                                <li class="navitem{% if nav_item.active %} active{% endif %}">
-                                    <a href="{{ nav_item.url|url }}" class="nav-link">{{ nav_item.title }}</a>
-                                </li>
-                            {%- endif %}
-                            {%- endif %}
-                            {%- endfor %}
+                              {%- for nav_item in nav %}
+                                {%- if nav_item.title != '3pl' %}
+                                  {%- if nav_item.children %}
+                                    <li class="dropdown{% if nav_item.active %} active{% endif %}">
+                                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">{{ nav_item.title }} <b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                        {%- for nav_item in nav_item.children %}
+                                          {% include "nav-sub.html" %}
+                                        {%- endfor %}
+                                        </ul>
+                                    </li>
+                                  {%- else %}
+                                    <li class="navitem{% if nav_item.active %} active{% endif %}">
+                                        <a href="{{ nav_item.url|url }}" class="nav-link">{{ nav_item.title }}</a>
+                                    </li>
+                                  {%- endif %}
+                                {%- endif %}
+                              {%- endfor %}
                             </ul>
                         </div>
                     {%- endif %}
-                    {%- endblock %}
+                  {%- endblock %}
 
                     <ul class="nav navbar-nav ml-auto">
                       {%- block search_button %}
                         {%- if 'search' in config['plugins'] %}
                         <li class="nav-item">
                             <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
-                                <i class="fa fa-search"></i> {% trans %}Search{% endtrans %}
+                                <i class="icon icon-search"></i> {% trans %}Search{% endtrans %}
                             </a>
                         </li>
-                        {%- endif %}
-                      {%- endblock %}
-
-                      {%- block next_prev %}
-                        {%- if page and (page.next_page or page.previous_page) %}
-                            <li class="nav-item">
-                                <a rel="prev" {% if page.previous_page %}href="{{ page.previous_page.url|url }}" class="nav-link"{% else %}class="nav-link disabled"{% endif %}>
-                                    <i class="fa fa-arrow-left"></i> {% trans %}Previous{% endtrans %}
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a rel="next" {% if page.next_page %}href="{{ page.next_page.url|url }}" class="nav-link"{% else %}class="nav-link disabled"{% endif %}>
-                                    {% trans %}Next{% endtrans %} <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
                         {%- endif %}
                       {%- endblock %}
 
@@ -150,11 +140,11 @@
                             <li class="nav-item">
                                 <a href="{{ page.edit_url }}" class="nav-link">
                                     {%- if config.repo_name == 'GitHub' -%}
-                                        <i class="fa fa-github"></i> {% trans repo_name=config.repo_name %}Edit on {{ repo_name }}{% endtrans %}
+                                        <i class="icon icon-github"></i> {% trans repo_name=config.repo_name %}Edit on {{ repo_name }}{% endtrans %}
                                     {%- elif config.repo_name == 'Bitbucket' -%}
-                                        <i class="fa fa-bitbucket"></i> {% trans repo_name=config.repo_name %}Edit on {{ repo_name }}{% endtrans %}
+                                        {% trans repo_name=config.repo_name %}Edit on {{ repo_name }}{% endtrans %}
                                     {%- elif config.repo_name == 'GitLab' -%}
-                                        <i class="fa fa-gitlab"></i> {% trans repo_name=config.repo_name %}Edit on {{ repo_name }}{% endtrans %}
+                                        {% trans repo_name=config.repo_name %}Edit on {{ repo_name }}{% endtrans %}
                                     {%- else -%}
                                     {% trans repo_name=config.repo_name%}Edit on {{ repo_name }}{% endtrans %}
                                     {%- endif -%}
@@ -164,11 +154,11 @@
                             <li class="nav-item">
                                 <a href="{{ config.repo_url }}" class="nav-link">
                                     {%- if config.repo_name == 'GitHub' -%}
-                                        <i class="fa fa-github"></i> {{ config.repo_name }}
+                                        <i class="icon icon-github"></i> {{ config.repo_name }}
                                     {%- elif config.repo_name == 'Bitbucket' -%}
-                                        <i class="fa fa-bitbucket"></i> {{ config.repo_name }}
+                                        {{ config.repo_name }}
                                     {%- elif config.repo_name == 'GitLab' -%}
-                                        <i class="fa fa-gitlab"></i> {{ config.repo_name }}
+                                        {{ config.repo_name }}
                                     {%- else -%}
                                     {{ config.repo_name }}
                                     {%- endif -%}
@@ -183,38 +173,38 @@
 
         <div class="container">
             <div class="row">
-                {%- block content %}
-                    <div class="col-md-3">
-                        <div id="nav-container">
-                        {%- block site_nav %}
+              {%- block content %}
+                <div class="col-md-3">
+                    <div id="nav-container">
+                      {%- block site_nav %}
                         {%- if nav|length>1 %}
                             <!-- Main desktop navigation -->
                             <ul class="navbar nav navbar-nav">
-                            {%- for nav_item in nav %}
-                            {%- if nav_item.title != '3pl' %}
-                            {%- if nav_item.children %}
-                                <li class="dropdown{% if nav_item.active %} active{% endif %}">
-                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">{{ nav_item.title }} <b class="caret"></b></a>
-                                    <ul class="dropdown-menu">
-                                    {%- for nav_item in nav_item.children %}
-                                        {% include "nav-sub.html" %}
-                                    {%- endfor %}
-                                    </ul>
-                                </li>
-                            {%- else %}
-                                <li class="navitem{% if nav_item.active %} active{% endif %}">
-                                    <a href="{{ nav_item.url|url }}" class="nav-link">{{ nav_item.title }}</a>
-                                </li>
-                            {%- endif %}
-                            {%- endif %}
-                            {%- endfor %}
+                              {%- for nav_item in nav %}
+                                {%- if nav_item.title != '3pl' %}
+                                  {%- if nav_item.children %}
+                                    <li class="dropdown{% if nav_item.active %} active{% endif %}">
+                                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">{{ nav_item.title }} <b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                          {%- for nav_item in nav_item.children %}
+                                            {% include "nav-sub.html" %}
+                                          {%- endfor %}
+                                        </ul>
+                                    </li>
+                                  {%- else %}
+                                    <li class="navitem{% if nav_item.active %} active{% endif %}">
+                                        <a href="{{ nav_item.url|url }}" class="nav-link">{{ nav_item.title }}</a>
+                                    </li>
+                                  {%- endif %}
+                                {%- endif %}
+                              {%- endfor %}
                             </ul>
                         {%- endif %}
-                        {%- endblock %}
-                        </div>
+                      {%- endblock %}
                     </div>
-                    <div class="col-md-9" role="main">{% include "content.html" %}</div>
-                {%- endblock %}
+                </div>
+                <div class="col-md-9" role="main">{% include "content.html" %}</div>
+              {%- endblock %}
             </div>
         </div>
 
@@ -235,8 +225,8 @@
         {%- endfor %}
       {%- endblock %}
 
-        {% if 'search' in config['plugins'] %}{%- include "search-modal.html" %}{% endif %}
-        {%- include "keyboard-modal.html" %}
+      {% if 'search' in config['plugins'] %}{%- include "search-modal.html" %}{% endif %}
+      {%- include "keyboard-modal.html" %}
 
     </body>
 </html>

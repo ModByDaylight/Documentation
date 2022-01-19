@@ -1,6 +1,9 @@
-site_name: Dead by Daylight Modding Documentation
+site_name: Mod By Daylight Docs
+site_description: Dead by Daylight Modding Documentation
+embed_image: /img/logo.png
 site_url: https://modbydaylight.com/
 repo_url: https://github.com/ModByDaylight/Documentation
+
 theme:
   name: mkdocs
   custom_dir: theme_override/
@@ -16,13 +19,35 @@ markdown_extensions:
       anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
 nav:
   - '3pl': '3pl.md'
   - Home: index.md
+  - Development:
+    - Development: Development/index.md
+    - Resources: Development/Resources.md
+    - Unreal Engine:
+      - Unreal Engine: Development/UnrealEngine/index.md
+      - Project Setup: Development/UnrealEngine/ProjectSetup.md
+      - Chunking: Development/UnrealEngine/Chunking.md
+    - Modding Guides:
+      - Textures: Development/ModdingGuides/Textures.md
+      - Sounds: Development/ModdingGuides/Sounds.md
+      - Emission Maps: Development/ModdingGuides/EmissionMaps.md
+      - Material Instances: Development/ModdingGuides/MaterialInstances.md
+      - Meshes:
+        - Meshes: Development/ModdingGuides/Meshes/index.md
+        - Static Meshes: Development/ModdingGuides/Meshes/StaticMesh.md
+        - Skeletal Meshes: Development/ModdingGuides/Meshes/SkeletalMesh.md
+      - Physics: Development/ModdingGuides/Physics.md
+      - Animations: Development/ModdingGuides/Animations.md
+      - Advanced:
+        - Custom Cosmetics: Development/ModdingGuides/Advanced/CustomCosmetics.md
+        - Custom Items: Development/ModdingGuides/Advanced/CustomItems.md
+        - Custom Maps: Development/ModdingGuides/Advanced/CustomMaps.md
   - Private Server:
     - Private Server: PrivateServer/index.md
     - Mod Installation: PrivateServer/ModInstallation.md
+    - Config Edits: PrivateServer/ConfigEdits.md
   - Dev Build:
     - Dev Build: DevBuild/index.md
     - Server:
@@ -31,3 +56,7 @@ nav:
       - Config: DevBuild/Server/Config.md
       - Commands: DevBuild/Server/Commands.md
     - Fiddler Setup: DevBuild/FiddlerSetup.md
+    - Cinematics: DevBuild/Cinematics.md
+    - Console Usage: DevBuild/ConsoleUsage.md
+    - Advanced Console Usage: DevBuild/AdvancedConsoleUsage.md
+    - Useful Commands: DevBuild/UsefulCommands.md
