@@ -29,11 +29,11 @@ This guide will be written for Blender, but it can be followed very easily in th
 
     ![](https://media.discordapp.net/attachments/847909063542833192/847911731967557652/unknown.png)
 
-I usually use Dwight_REF in Characters\Campers\Dwight\Models for males and MegSkeleton01_REF in Characters\Campers\Meg\Models for females.
-
-!!! note
-
-    All survivors use the same skeleton so you may use any for reference, I just find the Dwight_REF model the easiest. For example, you can make an animation for Nea and have it work on Claudette, Dwight, etc. There may be slight differences depending on the skeleton you choose.
+    I usually use Dwight_REF in Characters\Campers\Dwight\Models for males and MegSkeleton01_REF in Characters\Campers\Meg\Models for females.
+    
+    !!! note
+    
+        All survivors use the same skeleton so you may use any for reference, I just find the Dwight_REF model the easiest. For example, you can make an animation for Nea and have it work on Claudette, Dwight, etc. There may be slight differences depending on the skeleton you choose.
 
 
 6. Import the psk of the mesh you just exported.
@@ -159,14 +159,16 @@ For example, if I was putting an animation over M_PointTo, I would open AM_M_Poi
 
     ![](https://media.discordapp.net/attachments/847909063542833192/848589638289326090/unknown.png)
 
-If you don't already have a notify track, you can insert one by clicking on the drop-down arrow.
+    If you don't already have a notify track, you can insert one by clicking on the drop-down arrow.
+
     ![](https://media.discordapp.net/attachments/847909063542833192/848589840337207317/unknown.png)
 
 4. Click on the anim notify you just created, and view it in the Details tab.
 
     ![](https://cdn.discordapp.com/attachments/847909063542833192/848590148512907305/unknown.png)
 
-If you dont have the Details tab, go to `Windows` → `Details` and make sure it is checked.
+    If you dont have the Details tab, go to `Windows` → `Details` and make sure it is checked.
+
     ![](https://cdn.discordapp.com/attachments/847909063542833192/848590260987756554/unknown.png)
 
 5. Select your sound and add it!
@@ -176,6 +178,7 @@ If you dont have the Details tab, go to `Windows` → `Details` and make sure it
 Feel free to change any of the other settings here.
 
 Please note that the location you place your notify in is the part of the animation it plays at. 
+
     ![](https://cdn.discordapp.com/attachments/847909063542833192/848590657932492810/unknown.png)
 
 ### Adding particle effects (HARD)
