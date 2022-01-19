@@ -18,7 +18,7 @@ In the Private Server, matches can be queued for normally. Matches can also be c
 
 !!! note
     
-    Matches in the Private Server do not have role limits and have a limit of 32 players. Refer to the [Config Edits](PrivateServer/ConfigEdits.md) page to play Solo KYF.
+    Matches in the Private Server do not have role limits and have a limit of 32 players. Refer to the [Config Edits](ConfigEdits.md) page to play Solo KYF.
 
 ## Returning to Live Servers
 

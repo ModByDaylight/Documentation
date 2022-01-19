@@ -4,7 +4,7 @@ This guide will show you how you can add your own customization items with the u
 
 *Prerequisites*
 
-- [Project Setup](Development/UnrealEngine/ProjectSetup.md)
+- [Project Setup](../../../Development/UnrealEngine/ProjectSetup.md)
 
 ## Customization Item Data Table
 
@@ -31,12 +31,12 @@ This guide will show you how you can add your own customization items with the u
     ![](https://images-ext-2.discordapp.net/external/-m7TO2ZgwcnzTWPlv0DAYEwDQnBWWTkadRPvmYrXLls/https/lh5.googleusercontent.com/rzXX_DsSL08COHN_abeNYs7QlZOFh1QvHcW_712vktdOzGowBRC-aMBCkSw0ReBYxHgs5CHAohVPe3cDiyQHwVN_7kHS6l3wBGl7jFOY6FQFdtqExoe6XRdFdjGKJmS4UZGEQyZy)
 
 6. Start filling out the fields under the "Customization Item Data" category.
-| Property | Value
-| --- | ----------- |
-| `Category` | Select the appropriate option
-| `Item Mesh` | The skeletal mesh for the cosmetic
-| `Anim Class` | For special animation behavior. (Not required)
-| `Item Blueprint` | A blueprint for any special behavior. (Not required)
+    | Property | Value
+    | --- | ----------- |
+    | `Category` | Select the appropriate option
+    | `Item Mesh` | The skeletal mesh for the cosmetic
+    | `Anim Class` | For special animation behavior. (Not required)
+    | `Item Blueprint` | A blueprint for any special behavior. (Not required)
 
     ![](https://images-ext-2.discordapp.net/external/8KrKnxlZUbYLEbCFoAKtxDNpjqpfvGsVdHExpiqvGQ0/https/lh6.googleusercontent.com/BurQyDdwcS25yxE-7KnlZsTpYfdxksHgV_iaE5itCenVyYgRM3Gqj-jQlCqrAXXpexuGB780TPOeb-jFoc7crwVunb93ztp8CS1iEfOyEqodHKemjhFVuHhf3_XTtmFJ21GEXXTc)
 
