@@ -19,19 +19,12 @@ Remember that console output is also saved in the games log file (`DeadByDayligh
 | Console Command | Description
 | --- | ----------- |
 | `obj classes` | Prints out a list of all classes.
-
 | `obj dump <object / class name>` | Prints out the contents of object / class. If used on a class, it shows all the properties with their default values. If used on an object, you'll see all its current values. 
-
 | `GetAll <class name>` | Prints the name of every object of given class. 
-
 | `set <object / class name> <property> <new value>` | Allows you to set a properties value either on an object or all instances of a class (done by using class name instead of object name). 
-
 | `Display <object name> <property>` | Adds an on-screen display that in real time shows the value of the specified property constantly. 
-
 | `DisplayAll <class name> <property>` | Same as Display, but shows the properties of every instance of the class. 
-
 | `DisplayClear` | Clears the on-screen display. 
-
 | `ListProps <class name> *` | Lists all the properties and their types (but not values) of the given class. Remember the wildcard at the end. 
 
 ## Example 1
