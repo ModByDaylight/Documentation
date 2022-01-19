@@ -138,7 +138,7 @@ For example, if I was putting an animation over M_PointTo, I would open AM_M_Poi
 
     ![](https://media.discordapp.net/attachments/847909063542833192/847922908113928203/unknown.png)
 
-6. Open your .uexp montage file in https://mh-nexus.de/en/hxd/[HxD].
+6. Open your .uexp montage file in [HxD](https://mh-nexus.de/en/hxd/).
 7. CTRL F for the SequenceLength value from before. Set the settings exactly like shown in the picture below.
 
     ![](https://media.discordapp.net/attachments/847909063542833192/847926076101361704/unknown.png)
@@ -175,10 +175,10 @@ For example, if I was putting an animation over M_PointTo, I would open AM_M_Poi
 
     ![](https://media.discordapp.net/attachments/847909063542833192/848590442807427092/unknown.png)
 
-Feel free to change any of the other settings here.
-
-Please note that the location you place your notify in is the part of the animation it plays at. 
-
+    Feel free to change any of the other settings here.
+    
+    Please note that the location you place your notify in is the part of the animation it plays at. 
+    
     ![](https://cdn.discordapp.com/attachments/847909063542833192/848590657932492810/unknown.png)
 
 ### Adding particle effects (HARD)
