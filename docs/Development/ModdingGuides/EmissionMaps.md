@@ -91,7 +91,7 @@ Here is an example of a custom BDE by @vic<3#1848 on Discord.
 
 ![](https://images-ext-1.discordapp.net/external/0qjs2cEN1u9TCWT0-ltfGprsD8wRhntBo1EsJ_54mw8/https/media.discordapp.net/attachments/797660510287691786/797826177154285578/legacyBDE.png)
 
-Continue from part 2 in the [Custom Textures Guide](Development/ModdingGuides/Textures.md).
+Continue from part 2 in the [Custom Textures Guide](Textures.md).
 
 Congrats!
 
