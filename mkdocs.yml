@@ -1,8 +1,9 @@
 site_name: Mod By Daylight Docs
 site_description: Dead by Daylight Modding Documentation
-embed_image: /img/logo.png
 site_url: https://modbydaylight.com/
 repo_url: https://github.com/ModByDaylight/Documentation
+extra:
+  embed_image: /img/logo.png
 
 theme:
   name: mkdocs
