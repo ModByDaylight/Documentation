@@ -31,6 +31,7 @@ This guide will show you how you can add your own customization items with the u
     ![](https://images-ext-2.discordapp.net/external/-m7TO2ZgwcnzTWPlv0DAYEwDQnBWWTkadRPvmYrXLls/https/lh5.googleusercontent.com/rzXX_DsSL08COHN_abeNYs7QlZOFh1QvHcW_712vktdOzGowBRC-aMBCkSw0ReBYxHgs5CHAohVPe3cDiyQHwVN_7kHS6l3wBGl7jFOY6FQFdtqExoe6XRdFdjGKJmS4UZGEQyZy)
 
 6. Start filling out the fields under the "Customization Item Data" category.
+
     | Property | Value
     | --- | ----------- |
     | `Category` | Select the appropriate option
