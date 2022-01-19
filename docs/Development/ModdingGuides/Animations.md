@@ -183,7 +183,7 @@ For example, if I was putting an animation over M_PointTo, I would open AM_M_Poi
 
 ### Adding particle effects (HARD)
 
-1. The first thing you will need to do is create a particle system. This is not very easy, so I will link some guides for it. Please note that you will most likely have to refer to the xref:Development/ModdingGuides/MaterialInstances.adoc[Material Instances Guide] to create the material for your particle system.
+1. The first thing you will need to do is create a particle system. This is not very easy, so I will link some guides for it. Please note that you will most likely have to refer to the [Material Instances Guide](MaterialInstances.md) to create the material for your particle system.
 
     [Particle System User Guide](https://docs.unrealengine.com/4.26/en-US/RenderingAndGraphics/ParticleSystems/UserGuide/)
     

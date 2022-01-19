@@ -84,7 +84,7 @@
 
 ## Part 3: Cooking in Unreal Engine
 
-1. Open Unreal Engine and open your project. If you havent already made one, refer to the xref:Development/ModdingGuides/Textures.adoc[Custom Textures Guide].
+1. Open Unreal Engine and open your project. If you havent already made one, refer to the [Custom Textures Guide](../Textures.md).
 2. Now you will have to recreate the folder structure of the original mesh. For example, I would make a folder called Meshes, then make a folder inside that called Props, and so on. Remember it is case sensitive. 
 3. Drag your fbx into the folder where the mesh would be in the original game.
 4. Import all, make sure your settings are the same as shown.
@@ -99,7 +99,7 @@
     
     I have the mesh, the material for the car, the base texture of the car, and my material for Jigglypuff and it's texture. There should only be one mesh. If not, make sure you joined everything together in Blender.
 
-5. Refer to xref:Development/ModdingGuides/Textures.adoc[Material Instances Guide] for texturing your model.
+5. Refer to [Material Instances Guide](../MaterialInstances) for texturing your model.
 6. Name your mesh the same as the mesh you are replacing.
 
     ![](https://media.discordapp.net/attachments/797525681608982538/797552959176179752/unknown.png)
