@@ -16,7 +16,7 @@ This guide will show you how you can add your own customization items with the u
 
     ![](https://images-ext-2.discordapp.net/external/JFMCvuZnV087V8nbMhcBpcg19L9RKdoYXiF3yDhlAe0/https/lh4.googleusercontent.com/C3CVuPfOJdvoTokgXndqQvP_-SmpshcqLz0Iotg_1SM08xiA-g7B1MAGn-JdFEWscC6A0PvaTzDRY-e5FmBf7mb0q6l-T-gChxi78SiYetz06Nx-f3qULChe6pS9snCbI0W9NnoG)
 
-3. You can now name your data table whatever you wish, however it is recommended to give it a name descriptive of its contents.
+3. Now rename the data table asset to "CustomizationItemDB".
 4. Click on “Add” to add a new row to the data table.
 
     ![](https://images-ext-2.discordapp.net/external/yvvVKDgon4oIbWLSbj4VoMuCUuUPCFIasr-6dLRaNU4/https/lh3.googleusercontent.com/THsgfyuWp4BhUf-H55dUb4vjDoA9MWfI-hdYnFjcuW_CtA1MoK5_44G3pC-Vk5v9zSzxGZJ42zylQrHdWP65PnNKSCDDOiBpllXTjrMAyYMdwc2cyn8KZRqP0rQhShCqdmTYQ1x6)
@@ -31,6 +31,7 @@ This guide will show you how you can add your own customization items with the u
     ![](https://images-ext-2.discordapp.net/external/-m7TO2ZgwcnzTWPlv0DAYEwDQnBWWTkadRPvmYrXLls/https/lh5.googleusercontent.com/rzXX_DsSL08COHN_abeNYs7QlZOFh1QvHcW_712vktdOzGowBRC-aMBCkSw0ReBYxHgs5CHAohVPe3cDiyQHwVN_7kHS6l3wBGl7jFOY6FQFdtqExoe6XRdFdjGKJmS4UZGEQyZy)
 
 6. Start filling out the fields under the "Customization Item Data" category.
+
     | Property | Value
     | --- | ----------- |
     | `Category` | Select the appropriate option

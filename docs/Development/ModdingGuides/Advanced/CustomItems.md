@@ -16,7 +16,7 @@ This guide will show you how you can add your own items with the use of data tab
 
     ![](https://media.discordapp.net/attachments/917649484450775061/919373171168247888/unknown.png)
 
-3. You can now name your data table whatever you wish, however it is recommended to give it a name descriptive of its contents.
+3. Now rename the data table asset to "ItemDB".
 4. Click on “Add” to add a new row to the data table.
 
     ![](https://media.discordapp.net/attachments/917649484450775061/919373767136907314/unknown.png)
