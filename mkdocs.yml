@@ -63,3 +63,4 @@ nav:
     - Advanced Console Usage: DevBuild/AdvancedConsoleUsage.md
     - Useful Commands: DevBuild/UsefulCommands.md
     - Character IDs: DevBuild/CharacterIds.md
+theme: material
