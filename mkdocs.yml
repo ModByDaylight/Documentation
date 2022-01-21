@@ -7,7 +7,7 @@ extra:
 
 theme:
   name: material
-  custom_dir: overrides/
+  # custom_dir: overrides/
 extra_css:
   - 'style.css'
 extra_javascript:
