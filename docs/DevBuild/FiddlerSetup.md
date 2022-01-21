@@ -9,7 +9,7 @@
     Game data is still sent to BHVR using this method.
 
 
-*Prerequisites*
+## Prerequisites
 
 - [Developer Build (3.0.0)](https://www.mediafire.com/file/w0flhwditpyt4wy/DevBuild.zip/file)
 - [Fiddler](https://www.telerik.com/download/fiddler)

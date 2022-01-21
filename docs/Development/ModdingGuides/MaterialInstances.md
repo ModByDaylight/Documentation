@@ -2,7 +2,7 @@
 
 This guide will show you how to create custom material instances in Dead By Daylight.
 
-*Prerequisites*
+## Prerequisites
 
 - [Unreal Engine](https://www.unrealengine.com/en-US/download)
 - [Materials](https://cdn.discordapp.com/attachments/255823464064090113/909137084554551296/Content.7z)

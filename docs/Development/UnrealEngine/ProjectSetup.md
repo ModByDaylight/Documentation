@@ -2,7 +2,7 @@
 
 This page will guide you through setting up the template project for Dead By Daylight.
 
-*Prerequisites*
+## Prerequisites
 
 - [Dead By Daylight Project](https://github.com/ModByDaylight/DeadByDaylightProject)
 - [Unreal Engine](https://www.unrealengine.com/en-US/download) (4.25.4)

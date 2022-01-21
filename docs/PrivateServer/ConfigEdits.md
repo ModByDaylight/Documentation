@@ -23,6 +23,7 @@ The following console variables can be added below the `[Windows DeviceProfile]`
 | DBD.ForcedSurvivorStartItem | The start item survivors will start with.
 | DBD.ForceItemAvailable | Force all items to be available.
 | DBD.GenerationSeed | The generation seed to use to generate the level. If smaller than 0, the generation seed is considered invalid.
+| dbd.ForcePrivateMatchAPI | 0 - Do not force private match API.<br>1 - Force private match API
 | dbd.IgnoreGameEndConditions | Game will never end even if conditions are met.
 | dbd.ReplaceDisconnectedPlayersWithBots | Replaces disconnected players with bots.
 | dbd.SpawnExposerEnabled | Toggles the spawning of crows.

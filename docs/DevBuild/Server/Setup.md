@@ -1,6 +1,6 @@
 # Dev Build Server Setup
 
-*Prerequisites*
+## Prerequisites
 
 - [Developer Build (3.0.0)](https://www.mediafire.com/file/w0flhwditpyt4wy/DevBuild.zip/file)
 - [DBD Dev Server](https://github.com/Preston159/dbd-server/releases)

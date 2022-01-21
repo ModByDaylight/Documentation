@@ -1,6 +1,6 @@
 # Animations Guide
 
-*Prerequisites*
+## Prerequisites
 
 - [Better Fbx Importer & Exporter](https://blendermarket.com/products/better-fbx-importer--exporter) - For Blender users
 - [Unreal Engine](https://www.unrealengine.com/en-US/download) (4.25.4)

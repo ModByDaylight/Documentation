@@ -2,7 +2,7 @@
 
 This guide will show you how to change the values of emission maps, such as the color and position.
 
-*Prerequisites*
+## Prerequisites
 
 - [UModel](https://www.gildor.org/en/projects/umodel)
 - [HxD](https://mh-nexus.de/en/hxd/)
