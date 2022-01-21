@@ -6,8 +6,8 @@ extra:
   embed_image: /img/logo.png
 
 theme:
-  name: mkdocs
-  custom_dir: theme_override/
+  name: material
+  custom_dir: overrides/
 extra_css:
   - 'style.css'
 extra_javascript:
@@ -63,4 +63,3 @@ nav:
     - Advanced Console Usage: DevBuild/AdvancedConsoleUsage.md
     - Useful Commands: DevBuild/UsefulCommands.md
     - Character IDs: DevBuild/CharacterIds.md
-theme: material
