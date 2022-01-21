@@ -22,7 +22,7 @@ In this page, we will provide some surface level information for both mod users 
 
 If you'd like to get started using mods, this section is for you.
 
-### Dead By Daylight Private Server
+### Private Server
 
 The Private Server is a modified version of the live game which is 100% offline from the live servers and has modding support. You are able to mod the latest version of the game with no limitations and play matches with others playing. Directions for setting up the Private Server can be found [here](PrivateServer/index.md).
 
