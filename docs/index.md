@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # Dead By Daylight Modding Documentation
 
 ## Basics
