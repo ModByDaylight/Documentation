@@ -14,8 +14,10 @@ theme:
   features:
     - navigation.top
     - navigation.tabs
+    - navigation.instant
     - navigation.indexes
     - toc.integrate
+    - search.share
   palette:
   - scheme: slate
     primary: red
@@ -41,14 +43,18 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/xkbgW3aCRJ
 
+# Extensions
 markdown_extensions:
   - admonition
+  - attr_list
+  - md_in_html
   - pymdownx.details
   - pymdownx.superfences
-  - pymdownx.highlight:
-      anchor_linenums: true
+  - pymdownx.keys
   - pymdownx.inlinehilite
   - pymdownx.snippets
+  - pymdownx.highlight:
+      anchor_linenums: true
   - toc:
       permalink: true
 nav:

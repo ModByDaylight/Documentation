@@ -44,7 +44,7 @@ This guide will show you how to replace existing audio files in Dead By Daylight
     ![](https://media.discordapp.net/attachments/917649484450775061/920231475155193856/unknown.png)
 
 1. Navigate to the file called `SoundbanksInfo.xml` and open it in any text editor.
-1. Use CTRL + F to easily search for the name of the audio file you want to replace. For example, you would search for `lobby_survivor` if you wanted to replace the Survivor Lobby Music.
+1. Use ++ctrl+f++ to easily search for the name of the audio file you want to replace. For example, you would search for `lobby_survivor` if you wanted to replace the Survivor Lobby Music.
     ```xml
     <File Id="933117239" Language="SFX">
        <ShortName>Music\mu_menu_lobby_survivor.wav</ShortName>
