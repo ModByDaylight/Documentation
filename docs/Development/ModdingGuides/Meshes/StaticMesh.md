@@ -1,6 +1,6 @@
 # Static Mesh Guide
 
-*Prerequisites*
+## Prerequisites
 
 - [UModel](https://www.gildor.org/en/projects/umodel)
 - [Blender](https://www.blender.org/download/)

@@ -2,7 +2,7 @@
 
 This guide will show you how to replace existing audio files in Dead By Daylight, such as sound effects and music.
 
-*Prerequisites*
+## Prerequisites
 
 - [Wwise Launcher](https://www.audiokinetic.com/download/) - Creating .wem files from audio files
 - [DBD Unpacker](https://github.com/BrandonItaly/DBDUnpacker/releases/latest) - Unpacking audio files
@@ -36,7 +36,7 @@ This guide will show you how to replace existing audio files in Dead By Daylight
 
 ## Part 3: Finding and Replacing Audio (.wem files)
 
-1. Download and extract the latest release of the https://github.com/BrandonItaly/DBDUnpacker/releases/latest[DBD Unpacker] from GitHub.
+1. Download and extract the latest release of the [DBD Unpacker](https://github.com/BrandonItaly/DBDUnpacker/releases/latest) from GitHub.
 1. Open `DBDUnpacker.bat` and enter your Dead by Daylight game path.
 1. Select `Unpack Single Pak` then enter the number 2. This will unpack the `pakchunk2-[PlatformName].pak` file which contains all of the audio files.
 1. Navigate to the unpacked audio folder. (`[PlatformName]/Content/WwiseAudio/Windows`)

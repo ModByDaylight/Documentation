@@ -2,7 +2,7 @@
 
 This guide will show you how you can add your own items with the use of data tables and blueprints.
 
-*Prerequisites*
+## Prerequisites
 
 - [Project Setup](../../../Development/UnrealEngine/ProjectSetup.md)
 
@@ -10,7 +10,7 @@ This guide will show you how you can add your own items with the use of data tab
 
 1. Navigate to `Content/Data/Dlc` (or any subdirectory of `Data/Dlc` of your choosing, you can even create new directories) and right click to create a new data table asset.
 
-    ![](https://images-ext-2.discordapp.net/external/YOyREGb16pP1RPJEWkn6er6Iej5f2XuO0GJP1HNVca8/https/lh4.googleusercontent.com/_B7CS8FFJfQtOxosP5tmznH9hJA_Cid3aJe4AsG3EaYdQquEuQ0zGL-lh8gwV1jhGN67_ZyEkFpehUBK2txQppTffHD2_UTXbcIOpGJB4o2Yq-031XURKXwB4wqXgDg9vLDFhgE4)
+    ![](https://media.discordapp.net/attachments/917649484450775061/934189728885010512/unknown.png)
 
 2. Select "Item Data” as the Row Structure.
 
@@ -58,8 +58,7 @@ This guide will show you how you can add your own items with the use of data tab
     | `Type` | Item
     | `Display Name` | The name of the item in game.
     | `Description` | The description of the item in game.
-    | `Icon File Path List` | Add a new array entry and in that the path to the icon for your item (.png) 
-    Eg. “UI/Icons/Items/iconItems_flashlight.png”
+    | `Icon File Path List` | Add a new array entry and in that the path to the icon for your item (.png) <br>Eg. “UI/Icons/Items/iconItems_flashlight.png”
     | `Item Blueprint` | Your item's blueprint. (You haven't created this yet)
 
     ![](https://media.discordapp.net/attachments/917649484450775061/919450838366289970/unknown.png)
@@ -72,7 +71,7 @@ This guide will show you how you can add your own items with the use of data tab
 
     ![](https://media.discordapp.net/attachments/917649484450775061/919458822194593792/unknown.png)
 
-(Make sure you don't replace these blueprints when cooking)
+    (Make sure you don't replace these blueprints when cooking)
 
 2. Right click on the item blueprint which is the same type of item as the one you are creating and select `Create Child Blueprint Class`.
 
