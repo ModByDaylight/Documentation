@@ -74,6 +74,7 @@ nav:
     - Advanced:
       - Custom Cosmetics: Development/ModdingGuides/Advanced/CustomCosmetics.md
       - Custom Items: Development/ModdingGuides/Advanced/CustomItems.md
+      - Custom Perks: Development/ModdingGuides/Advanced/CustomPerks.md
       - Custom Maps: Development/ModdingGuides/Advanced/CustomMaps.md
 - Private Server:
   - Private Server: PrivateServer/index.md
