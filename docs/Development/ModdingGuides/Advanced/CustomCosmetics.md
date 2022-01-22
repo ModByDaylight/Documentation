@@ -2,7 +2,7 @@
 
 This guide will show you how you can add your own customization items with the use of data tables.
 
-*Prerequisites*
+## Prerequisites
 
 - [Project Setup](../../../Development/UnrealEngine/ProjectSetup.md)
 
@@ -10,16 +10,16 @@ This guide will show you how you can add your own customization items with the u
 
 1. Navigate to `/Content/Data/Dlc` (or any subdirectory of `/Data/Dlc` of your choosing, you can even create new directories) and right click to create a new data table asset.
 
-    ![](https://images-ext-2.discordapp.net/external/YOyREGb16pP1RPJEWkn6er6Iej5f2XuO0GJP1HNVca8/https/lh4.googleusercontent.com/_B7CS8FFJfQtOxosP5tmznH9hJA_Cid3aJe4AsG3EaYdQquEuQ0zGL-lh8gwV1jhGN67_ZyEkFpehUBK2txQppTffHD2_UTXbcIOpGJB4o2Yq-031XURKXwB4wqXgDg9vLDFhgE4)
+    ![](https://media.discordapp.net/attachments/917649484450775061/934189728885010512/unknown.png)
 
 2. Select “Customization Item Data” as the Row Structure.
 
-    ![](https://images-ext-2.discordapp.net/external/JFMCvuZnV087V8nbMhcBpcg19L9RKdoYXiF3yDhlAe0/https/lh4.googleusercontent.com/C3CVuPfOJdvoTokgXndqQvP_-SmpshcqLz0Iotg_1SM08xiA-g7B1MAGn-JdFEWscC6A0PvaTzDRY-e5FmBf7mb0q6l-T-gChxi78SiYetz06Nx-f3qULChe6pS9snCbI0W9NnoG)
+    ![](https://media.discordapp.net/attachments/917649484450775061/934189442439204914/unknown.png)
 
 3. Now rename the data table asset to "CustomizationItemDB".
 4. Click on “Add” to add a new row to the data table.
 
-    ![](https://images-ext-2.discordapp.net/external/yvvVKDgon4oIbWLSbj4VoMuCUuUPCFIasr-6dLRaNU4/https/lh3.googleusercontent.com/THsgfyuWp4BhUf-H55dUb4vjDoA9MWfI-hdYnFjcuW_CtA1MoK5_44G3pC-Vk5v9zSzxGZJ42zylQrHdWP65PnNKSCDDOiBpllXTjrMAyYMdwc2cyn8KZRqP0rQhShCqdmTYQ1x6)
+    ![](https://media.discordapp.net/attachments/917649484450775061/934189331285966928/unknown.png)
 
 5. Double click on the row name to change it to a custom cosmetic ID. It can be anything, but make sure to try and use a unique name, so no two cosmetics or mods overlap. Some ingame cosmetic IDs are:
     ```

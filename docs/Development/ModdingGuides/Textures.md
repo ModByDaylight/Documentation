@@ -2,7 +2,7 @@
 
 This guide will show you how to replace textures in Dead By Daylight.
 
-*Prerequisites*
+## Prerequisites
 
 - [UModel](https://www.gildor.org/en/projects/umodel)
 - [Unreal Engine](https://www.unrealengine.com/en-US/download)
