@@ -8,8 +8,8 @@ The Private Server is a modified version of the live game which is 100% offline 
 
 ## Private Server Setup
 
-1. Download and extract the Private Server Setup folder. +
-2. Run the "PrivateSeverLauncher.bat" and follow the setup steps. +
+1. Download and extract the Private Server Setup folder.
+2. Run the "PrivateSeverLauncher.bat" and follow the setup steps.
 3. Once the setup has been completed, run the launcher again and select the "Launch Private Server" option. Dead By Daylight can also be opened through Steam.
 
 ## Matchmaking

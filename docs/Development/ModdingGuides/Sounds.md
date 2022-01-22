@@ -1,6 +1,6 @@
 # Custom Sounds Guide
 
-This guide will show you how to replace existing audio files in Dead By Daylight, such as sound effects and music.
+This guide will show you how to replace sounds Dead By Daylight.
 
 ## Prerequisites
 
@@ -45,7 +45,7 @@ This guide will show you how to replace existing audio files in Dead By Daylight
 
 1. Navigate to the file called `SoundbanksInfo.xml` and open it in any text editor.
 1. Use ++ctrl+f++ to easily search for the name of the audio file you want to replace. For example, you would search for `lobby_survivor` if you wanted to replace the Survivor Lobby Music.
-    ```xml
+    ```xml title="SoundbanksInfo.xml"
     <File Id="933117239" Language="SFX">
        <ShortName>Music\mu_menu_lobby_survivor.wav</ShortName>
        <Path>SFX\Music\mu_menu_lobby_survivor_0BC91DCF.wem</Path>

@@ -17,7 +17,7 @@ This guide will show you how to replace textures in Dead By Daylight.
 
     ![](https://images-ext-2.discordapp.net/external/aHO1nQ_Mz4-lg48MPivnC5yDjQMqIMH7zccCU9q3kbQ/https/media.discordapp.net/attachments/833812099263627335/833852232449261578/unknown.png)
     
-    UModel will now attempt to open all DBD game files, this process can take anywhere from a couple seconds to a couple minutes.<br>If it takes exceedingly long (>10 minutes) recheck all settings are correct and try again.
+    UModel will now attempt to open all DBD game files, this process can take anywhere from a couple seconds to a couple minutes. If it takes exceedingly long (>10 minutes) recheck all settings are correct and try again.
 
 5. Find the texture you want to edit and export it with ++ctrl+x++.
 6. Set where you would like the image to be saved and press OK.

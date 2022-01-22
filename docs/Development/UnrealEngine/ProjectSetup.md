@@ -28,4 +28,6 @@ Open up the the .sln file in your project folder. Once Visual Studio loads, make
 
 If you encounter issues during this step, consider asking for help on the Discord.
 
-Now that you've built the binaries, the Editor should open without any issues.
+!!! success
+
+    Now that you've built the binaries, the Editor should open without any issues.

@@ -4,7 +4,7 @@ The config files can be edited to change certain console variables. This can be 
 
 This example unlocks all customization items.
 
-```ini
+```ini title="DefaultDeviceProfiles.ini"
 [Windows DeviceProfile] 
 +CVars=dbd.UnlockAllCustomizationItems=1
 ```

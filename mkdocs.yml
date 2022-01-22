@@ -45,6 +45,7 @@ extra:
 
 # Extensions
 markdown_extensions:
+  - abbr
   - admonition
   - attr_list
   - md_in_html

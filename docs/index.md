@@ -32,4 +32,4 @@ We highly recommend using pak files when installing mods, as it makes using mods
 
 ### Creating Mods
 
-If you're looking to create your own mods, we suggest you check out our modding guides.
+If you're looking to create your own mods, we suggest you check out our [modding guides](Development/).
