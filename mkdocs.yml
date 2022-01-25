@@ -23,8 +23,8 @@ theme:
     - search.share
   palette:
   - scheme: slate
-    primary: red
-    accent: red
+    primary: deep purple
+    accent: deep purple
     toggle:
       icon: material/toggle-switch-off-outline
       name: Switch to light mode
