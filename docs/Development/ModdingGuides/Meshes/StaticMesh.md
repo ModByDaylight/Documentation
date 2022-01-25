@@ -8,7 +8,7 @@
 - [Unreal Engine](https://www.unrealengine.com/en-US/download)
 
 
-## Part 1: Exporting from Dead By Daylight
+## Exporting from Dead By Daylight
 
 1. Open UModel.
 2. Set the path to game files as the base of your Dead By Daylight files.
@@ -20,7 +20,7 @@
 5. Find a static mesh you want to replace. Open the static mesh and export it with ++ctrl+x++. Keep default settings. 
 6. Find the exported static mesh. You can find where it exported in UModel by going to `Tools` → `Open export folder`.
 
-## Part 2: Replacing the Mesh
+## Replacing the Mesh
 
 1. Open Blender and start a new general file.
 
@@ -82,7 +82,7 @@
 
 13. When you're done editing, `Export` → `Export as FBX`.
 
-## Part 3: Cooking in Unreal Engine
+## Cooking in Unreal Engine
 
 1. Open Unreal Engine and open your project. If you havent already made one, refer to the [Custom Textures Guide](../Textures.md).
 2. Now you will have to recreate the folder structure of the original mesh. For example, I would make a folder called Meshes, then make a folder inside that called Props, and so on. Remember it is case sensitive. 

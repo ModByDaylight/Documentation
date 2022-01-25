@@ -9,7 +9,7 @@
 
     To use this guide for Blender, you must install the Better Fbx Importer & Exporter addon and use the FBX export for it. If you unchecked scale down when importing, set the export scale to 1. If you left scale down checked then leave the export scale at 100.
 
-## Part 1: Importing your mesh into Unreal Engine
+## Importing your mesh into Unreal Engine
 
 1. Import your model into Unreal Engine.
 2. Make sure Create Physics Asset is checked.
@@ -23,7 +23,7 @@
 
 5. Rename your mesh to match the corresponding files it's going to be replacing. The Physics Asset can be named anything since it is not replacing an existing file.
 
-## Part 2: Editing the Physics Asset
+## Editing the Physics Asset
 
 !!! note
 
@@ -41,7 +41,7 @@
 
 4. Once you have a result you're happy with hit Save.
 
-## Part 3: Painting Cloth Physics onto your Mesh
+## Painting Cloth Physics onto your Mesh
 
 1. Right click on the mesh you want to add physics to and hit Edit.
 2. The mesh viewer window will open up.
@@ -73,7 +73,7 @@
       Your browser does not support the video tag.
     </video>
 
-## Part 4: Cloth Configuration
+## Cloth Configuration
 
 1. After painting the physics onto your mesh, you can tweak how the physics work by expanding Cloth Config in the Clothing window.
 
@@ -82,7 +82,7 @@
 2. Tweak the settings to get different physics reactions. (Increasing the X, Y, and Z values in Damping will cause the physics to be more floaty as if it were moving in water, or tweak the gravity to make the physics more floaty and ghostly)
 3. As before, to test out the physics right click on the mesh and hit Apply Clothing Data. To reset the mesh right click again and hit Remove Clothing Data.
 
-## Part 5: Cooking your assets
+## Cooking your assets
 
 1. Replace the mesh as you would normally. The physics asset can be anywhere as long as you copy it over.
 2. Save all and select `File` → `Cook Content For Windows`.

@@ -7,7 +7,7 @@ This guide will show you how to change the values of emission maps, such as the 
 - [UModel](https://www.gildor.org/en/projects/umodel)
 - [HxD](https://mh-nexus.de/en/hxd/)
 
-## Part 1: How to change the color of EM Maps
+## How to change the color of EM Maps
 
 1. Open your Dead By Daylight folder in UModel.
 
@@ -71,7 +71,7 @@ Your uasset is now edited with custom EM color values, a backup of the original 
 
 EM Intensity can be changed in pretty much the same way, this will change the Intensity of the brightness.
 
-## Part 2: How to change the position of EM Maps
+## How to change the position of EM Maps
 
 1. Open your Dead By Daylight folder in UModel.
 

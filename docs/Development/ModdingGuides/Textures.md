@@ -8,7 +8,7 @@ This guide will show you how to replace textures in Dead By Daylight.
 - [Unreal Engine](https://www.unrealengine.com/en-US/download)
 - Image editor (Photoshop, GIMP, paint.net, etc)
 
-## Part 1: Exporting from Dead By Daylight
+## Exporting from Dead By Daylight
 
 1. Open UModel.
 2. Set the path to game files as the base of your Dead By Daylight files.
@@ -24,7 +24,7 @@ This guide will show you how to replace textures in Dead By Daylight.
 
     ![](https://images-ext-1.discordapp.net/external/Njqw0KE-y4jVbASzsiWu9sGJtJ5jtaP9flqAtNkHM9k/https/media.discordapp.net/attachments/833812099263627335/833852336866459698/unknown.png)
 
-## Part 2: Editing & Cooking
+## Editing & Cooking
 
 1. Open your TGA texture in your image editor of choice.
 
@@ -55,7 +55,7 @@ This guide will show you how to replace textures in Dead By Daylight.
 
 Your file should now be cooking, this can take anywhere from a couple seconds to minutes, it typically takes longer the first time you cook.
 
-## Part 3: Importing into DBD
+## Importing into DBD
 
 1. Find where your Unreal Engine project is saved in File Explorer. If you dont know where it is saved, you can find it in `Settings` → `Project Settings` → `Packaging` under "Staging Directory".
 

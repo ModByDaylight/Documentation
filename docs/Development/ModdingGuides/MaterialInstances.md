@@ -7,7 +7,7 @@ This guide will show you how to create custom material instances in Dead By Dayl
 - [Unreal Engine](https://www.unrealengine.com/en-US/download)
 - [Materials](https://cdn.discordapp.com/attachments/255823464064090113/909137084554551296/Content.7z)
 
-## Part 1: Importing the materials into your Unreal Project
+## Importing the materials into your Unreal Project
 
 Download the materials then extract the Content folder into your project's Content folder. Be sure that the path in Unreal Engine is `Content` → ETC, not `Content` → `Content` → ETC.
 
@@ -16,7 +16,7 @@ Download the materials then extract the Content folder into your project's Conte
   Your browser does not support the video tag.
 </video>
 
-## Part 2: Directories to never cook
+## Directories to never cook
 
 There are some directories you should never cook, which can be set in the project settings. These directories are:
 - Content\Characters\Campers\Materials
@@ -28,7 +28,7 @@ There are some directories you should never cook, which can be set in the projec
   Your browser does not support the video tag.
 </video>
 
-## Part 3: Creating your material instance and assigning it to your model
+## Creating your material instance and assigning it to your model
 
 First import your model in the normal location in the import settings. Do not create materials and uncheck import textures.
 
@@ -43,11 +43,11 @@ Inside AdamTextures folder import the textures you will be using on the model. T
   Your browser does not support the video tag.
 </video>
 
-## Part 4: Enabling the Alpha Texture (OPTIONAL)
+## Enabling the Alpha Texture (OPTIONAL)
 
 Enable Opacity Mask Texture or MaskFromOtherPart depending on whether you're using a Killer or Survivor model and assign your _M texture to it.
 
-## Part 5: Enabling the Emission Texture (OPTIONAL)
+## Enabling the Emission Texture (OPTIONAL)
 
 Enable Blood Dirt Emissive and assign your _BDE texture to it. then enable EM Intensity and change it to your desired amount the higher it is the brighter the emission will be. Enable EM Color and set it to your desired color. See video below for an explanation on what each of the emission values do.
 
@@ -56,7 +56,7 @@ Enable Blood Dirt Emissive and assign your _BDE texture to it. then enable EM In
   Your browser does not support the video tag.
 </video>
 
-## Part 6: Hair Material setup
+## Hair Material setup
 
 Parent your hair materials to MI_HairTAA. See video below for an explanation of what each of the settings do and how to use them.
 
@@ -65,7 +65,7 @@ Parent your hair materials to MI_HairTAA. See video below for an explanation of 
   Your browser does not support the video tag.
 </video>
 
-## Part 7: CV Materials (OPTIONAL)
+## CV Materials (OPTIONAL)
 
 CV materials are the basic brown quality recolors from the store for BHVR created characters.
 The video below will show how to make the textures required for this and how to use the settings.

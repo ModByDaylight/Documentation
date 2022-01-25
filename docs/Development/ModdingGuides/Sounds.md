@@ -13,7 +13,7 @@ This guide will show you how to replace sounds Dead By Daylight.
 - [DBDSounds](https://github.com/Masusder/DBDSounds) - Collection of all in-game audio in the .wav audio format
 - [WAV Converter](https://audio.online-convert.com/convert-to-wav) - Converting audio files to the Waveform Audio File Format
 
-## Part 1: Creating a Wwise Project
+## Creating a Wwise Project
 
 1. Open the Wwise Launcher and select the Wwise tab.
 1. Install the latest version of Wwise under Install New Version. A window will appear asking you to select which Packages and Deployment Platforms you'd like to install. Leave all settings as default and press Install. 
@@ -22,7 +22,7 @@ This guide will show you how to replace sounds Dead By Daylight.
 
     ![](https://images-ext-1.discordapp.net/external/IYAFs5jubGFxID_ZaX3J7huHWfsMFzifTO1HM6YjTCY/https/media.discordapp.net/attachments/834873477500371004/844330346953965568/unknown.png)
 
-## Part 2: Importing and Exporting Audio
+## Importing and Exporting Audio
 
 1. To import your audio file(s), navigate to `Project` → `Import Audio Files...` → `Add Files`, select your audio file and press Import. These audio files must be in the .wav audio format.
 1. To export your audio file(s), navigate to `Project` → `Convert All Audio Files...` and press convert. This will convert all of your .wav audio files into .wem files.
@@ -34,7 +34,7 @@ This guide will show you how to replace sounds Dead By Daylight.
 
     ![](https://media.discordapp.net/attachments/917649484450775061/920230526374273054/unknown.png)
 
-## Part 3: Finding and Replacing Audio (.wem files)
+## Finding and Replacing Audio (.wem files)
 
 1. Download and extract the latest release of the [DBD Unpacker](https://github.com/BrandonItaly/DBDUnpacker/releases/latest) from GitHub.
 1. Open `DBDUnpacker.bat` and enter your Dead by Daylight game path.
@@ -61,7 +61,7 @@ This guide will show you how to replace sounds Dead By Daylight.
 
 1. Place the .wem file in the same path as the original and package as usual.
 
-## Part 4: Finding and Replacing Audio (.bnk files)
+## Finding and Replacing Audio (.bnk files)
 
 1. Download and extract the latest release of the [DBD Unpacker](https://github.com/BrandonItaly/DBDUnpacker/releases/latest) from GitHub.
 1. Open `DBDUnpacker.bat` and enter your Dead by Daylight game path.
