@@ -6,8 +6,6 @@ site_url: https://modbydaylight.com/
 # Repository
 # repo_name: ModByDaylight/Documentation
 repo_url: https://github.com/ModByDaylight/Documentation
-extra:
-  embed_image: /img/logo.png
 
 theme:
   name: material
@@ -37,6 +35,7 @@ theme:
 
 # Customization
 extra:
+  embed_image: /img/logo.png
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/ModByDaylight
