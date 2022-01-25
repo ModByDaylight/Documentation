@@ -139,12 +139,12 @@ For example, if I was putting an animation over M_PointTo, I would open AM_M_Poi
     ![](https://media.discordapp.net/attachments/847909063542833192/847922908113928203/unknown.png)
 
 6. Open your .uexp montage file in [HxD](https://mh-nexus.de/en/hxd/).
-7. CTRL F for the SequenceLength value from before. Set the settings exactly like shown in the picture below.
+7. ++ctrl+f++ for the SequenceLength value from before. Set the settings exactly like shown in the picture below.
 
     ![](https://media.discordapp.net/attachments/847909063542833192/847926076101361704/unknown.png)
 
 8. Double check that its set to floating point number in the top right, and then choose "Replace All".
-9. CTRL S to save the file. The length is now set to the length of your animation.
+9. ++ctrl+s++ to save the file. The length is now set to the length of your animation.
 
 ## Part 5: Add sounds and particle effects (OPTIONAL)
 

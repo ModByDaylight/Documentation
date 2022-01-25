@@ -2,14 +2,14 @@
 
 The Private Server is a modified version of the live game which is 100% offline from the live servers and has modding support. You are able to mod the latest version of the game with no limitations and play matches with others playing.
 
-*Prerequisites*
+## Prerequisites
 
 - [Private Server](https://github.com/ModByDaylight/PrivateServer/releases)
 
 ## Private Server Setup
 
-1. Download and extract the Private Server Setup folder. +
-2. Run the "PrivateSeverLauncher.bat" and follow the setup steps. +
+1. Download and extract the Private Server Setup folder.
+2. Run the "PrivateSeverLauncher.bat" and follow the setup steps.
 3. Once the setup has been completed, run the launcher again and select the "Launch Private Server" option. Dead By Daylight can also be opened through Steam.
 
 ## Matchmaking

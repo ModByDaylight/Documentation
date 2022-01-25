@@ -1,66 +1,106 @@
+# Project information
 site_name: Mod By Daylight Docs
 site_description: Dead by Daylight Modding Documentation
 site_url: https://modbydaylight.com/
-repo_url: https://github.com/ModByDaylight/Documentation
-extra:
-  embed_image: /img/logo.png
 
-theme:
-  name: mkdocs
-  custom_dir: theme_override/
+# Repository
+# repo_name: ModByDaylight/Documentation
+repo_url: https://github.com/ModByDaylight/Documentation
+
 extra_css:
   - 'style.css'
 extra_javascript:
-  - '/scripts/popper.min.js'
   - '/scripts/main.js'
+
+theme:
+  name: material
+  features:
+    - navigation.top
+    - navigation.tabs
+    - navigation.instant
+    - navigation.indexes
+    - toc.integrate
+    - search.share
+  palette:
+  - scheme: slate
+    primary: red
+    accent: red
+    toggle:
+      icon: material/toggle-switch-off-outline
+      name: Switch to light mode
+  - scheme: default
+    primary: indigo
+    accent: indigo
+    toggle:
+      icon: material/toggle-switch
+      name: Switch to dark mode
+  icon:
+    logo: logo
+    repo: fontawesome/brands/github
+
+# Customization
+extra:
+  embed_image: /img/logo.png
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ModByDaylight
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/xkbgW3aCRJ
+
+# Extensions
 markdown_extensions:
+  - abbr
   - admonition
+  - attr_list
+  - md_in_html
   - pymdownx.details
   - pymdownx.superfences
-  - pymdownx.highlight:
-      anchor_linenums: true
+  - pymdownx.keys
   - pymdownx.inlinehilite
   - pymdownx.snippets
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - toc:
+      permalink: true
 nav:
-  - '3pl': '3pl.md'
-  - Home: index.md
-  - Development:
-    - Development: Development/index.md
-    - Resources: Development/Resources.md
-    - Unreal Engine:
-      - Unreal Engine: Development/UnrealEngine/index.md
-      - Project Setup: Development/UnrealEngine/ProjectSetup.md
-      - Chunking: Development/UnrealEngine/Chunking.md
-    - Modding Guides:
-      - Textures: Development/ModdingGuides/Textures.md
-      - Sounds: Development/ModdingGuides/Sounds.md
-      - Emission Maps: Development/ModdingGuides/EmissionMaps.md
-      - Material Instances: Development/ModdingGuides/MaterialInstances.md
-      - Meshes:
-        - Meshes: Development/ModdingGuides/Meshes/index.md
-        - Static Meshes: Development/ModdingGuides/Meshes/StaticMesh.md
-        - Skeletal Meshes: Development/ModdingGuides/Meshes/SkeletalMesh.md
-      - Physics: Development/ModdingGuides/Physics.md
-      - Animations: Development/ModdingGuides/Animations.md
-      - Advanced:
-        - Custom Cosmetics: Development/ModdingGuides/Advanced/CustomCosmetics.md
-        - Custom Items: Development/ModdingGuides/Advanced/CustomItems.md
-        - Custom Perks: Development/ModdingGuides/Advanced/CustomPerks.md
-        - Custom Maps: Development/ModdingGuides/Advanced/CustomMaps.md
-  - Private Server:
-    - Private Server: PrivateServer/index.md
-    - Mod Installation: PrivateServer/ModInstallation.md
-    - Config Edits: PrivateServer/ConfigEdits.md
-  - Dev Build:
-    - Dev Build: DevBuild/index.md
-    - Server:
-      - Server: DevBuild/Server/index.md
-      - Setup: DevBuild/Server/Setup.md
-      - Config: DevBuild/Server/Config.md
-      - Commands: DevBuild/Server/Commands.md
-    - Fiddler Setup: DevBuild/FiddlerSetup.md
-    - Cinematics: DevBuild/Cinematics.md
-    - Console Usage: DevBuild/ConsoleUsage.md
-    - Advanced Console Usage: DevBuild/AdvancedConsoleUsage.md
-    - Useful Commands: DevBuild/UsefulCommands.md
-    - Character IDs: DevBuild/CharacterIds.md
+- Home: index.md
+- Development:
+  - Development: Development/index.md
+  - Resources: Development/Resources.md
+  - Unreal Engine:
+    - Unreal Engine: Development/UnrealEngine/index.md
+    - Project Setup: Development/UnrealEngine/ProjectSetup.md
+    - Chunking: Development/UnrealEngine/Chunking.md
+  - Modding Guides:
+    - Textures: Development/ModdingGuides/Textures.md
+    - Sounds: Development/ModdingGuides/Sounds.md
+    - Emission Maps: Development/ModdingGuides/EmissionMaps.md
+    - Material Instances: Development/ModdingGuides/MaterialInstances.md
+    - Meshes:
+      - Meshes: Development/ModdingGuides/Meshes/index.md
+      - Static Meshes: Development/ModdingGuides/Meshes/StaticMesh.md
+      - Skeletal Meshes: Development/ModdingGuides/Meshes/SkeletalMesh.md
+    - Physics: Development/ModdingGuides/Physics.md
+    - Animations: Development/ModdingGuides/Animations.md
+    - Advanced:
+      - Custom Cosmetics: Development/ModdingGuides/Advanced/CustomCosmetics.md
+      - Custom Items: Development/ModdingGuides/Advanced/CustomItems.md
+      - Custom Perks: Development/ModdingGuides/Advanced/CustomPerks.md
+      - Custom Maps: Development/ModdingGuides/Advanced/CustomMaps.md
+- Private Server:
+  - Private Server: PrivateServer/index.md
+  - Mod Installation: PrivateServer/ModInstallation.md
+  - Config Edits: PrivateServer/ConfigEdits.md
+- Dev Build:
+  - Dev Build: DevBuild/index.md
+  - Server:
+    - Server: DevBuild/Server/index.md
+    - Setup: DevBuild/Server/Setup.md
+    - Config: DevBuild/Server/Config.md
+    - Commands: DevBuild/Server/Commands.md
+  - Fiddler Setup: DevBuild/FiddlerSetup.md
+  - Cinematics: DevBuild/Cinematics.md
+  - Console Usage: DevBuild/ConsoleUsage.md
+  - Advanced Console Usage: DevBuild/AdvancedConsoleUsage.md
+  - Useful Commands: DevBuild/UsefulCommands.md
+  - Character IDs: DevBuild/CharacterIds.md

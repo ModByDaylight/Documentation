@@ -1,6 +1,6 @@
 # Installing Mods
 
-*Prerequisites*
+## Prerequisites
 
 - [UnrealPak Script](https://cdn.discordapp.com/attachments/838158112749781000/929249085154803802/UnrealPak.zip)
 

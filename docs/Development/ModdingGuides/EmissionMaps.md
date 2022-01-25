@@ -13,7 +13,7 @@ This guide will show you how to change the values of emission maps, such as the 
 
     ![](https://images-ext-2.discordapp.net/external/aHO1nQ_Mz4-lg48MPivnC5yDjQMqIMH7zccCU9q3kbQ/https/media.discordapp.net/attachments/833812099263627335/833852232449261578/unknown.png)
 
-2. Find a material with an EM map and export it with CTRL + x.
+2. Find a material with an EM map and export it with ++ctrl+x++.
 3. Find the exported material and open the `props.txt` file. You can find where it exported in UModel by going to `Tools` → `Open export folder`.
 
     ![](https://images-ext-1.discordapp.net/external/wL-IQOvWwgF45izD7s5F6b3utOfQwoYrdTJubwTwEaI/https/media.discordapp.net/attachments/797628786530713621/797634032007381062/unknown.png)
@@ -28,24 +28,25 @@ This guide will show you how to change the values of emission maps, such as the 
 
     ![](https://media.discordapp.net/attachments/797628786530713621/797634255404269578/unknown.png)
 
-5. Go to https://htmlcolorcodes.com/color-picker/ and pick the color you want your EM Color to be.
+5. [Pick the color](https://htmlcolorcodes.com/color-picker/) you want your EM Color to be.
 6. Take each value and divide them by 255. (Ex: This would be 0, 0.09803921568, 1)
-Remember your values
 
     ![](https://images-ext-1.discordapp.net/external/3AstwqrnNkvslWhTcI_WK7itjuxwU0ltnD4M835ajF8/https/media.discordapp.net/attachments/797628786530713621/797635848623357972/color.jpg)
 
 7. Open HxD
-8. Drag in the original .uasset from the dev build files. (For live use the .uexp instead)
-You should now be here
+8. Drag in the original .uexp file. 
+
+    You should now be here.
 
     ![](https://images-ext-1.discordapp.net/external/bMPKLPVzDT59TRpW9PFpqVZfnqWmByL1W9zjJN9kcYc/https/media.discordapp.net/attachments/797628786530713621/797639662129905674/unknown.png)
 
-9. Go back to the `props.txt` file and use CTRL + f for the most unique value. For example, my original values in `props.txt` are 1, 0.552359, 0.212663, and 1
-I shouldn't search for 1 because it is a generic number which will have multiple results. Instead search for the more specific numbers because they will only appear one time.
+9. Go back to the `props.txt` file and use ++ctrl+f++ for the most unique value. For example, my original values in `props.txt` are 1, 0.552359, 0.212663, and 1
+
+    I shouldn't search for 1 because it is a generic number which will have multiple results. Instead search for the more specific numbers because they will only appear one time.
 
     ![](https://images-ext-1.discordapp.net/external/l7WthovwDL3yzDeCnvcr9uakH422ViJtdswAPwVqo08/https/media.discordapp.net/attachments/797628786530713621/797641092878303252/unknown.png)
 
-It should look something like this after searching. (It won't be exactly the same)
+    It should look something like this after searching. (It won't be exactly the same)
 
     ![](https://images-ext-2.discordapp.net/external/EfV5u15UUy3ehWTlxEeJHHHlhdiZEC6IQwLfUn5pNXo/https/media.discordapp.net/attachments/797628786530713621/797641415516880896/unknown.png)
 
@@ -53,7 +54,7 @@ It should look something like this after searching. (It won't be exactly the sam
 
     ![](https://images-ext-1.discordapp.net/external/LeQyxcj3CTuN1_OGLikBdMOTH98PfELPRBT5OMBoNME/https/media.discordapp.net/attachments/797628786530713621/797642241904082964/Hnet-image.gif)
 
-11. CTRL + F and search for the original red value. Make sure you search forward.
+11. ++ctrl+f++ and search for the original red value. Make sure you search forward.
 
     ![](https://images-ext-1.discordapp.net/external/cLcgtRY01iZO9UMkBhKsVosbvjwkUs276rIKiRnX3kc/https/media.discordapp.net/attachments/797628786530713621/797642609731960882/unknown.png)
 
@@ -62,7 +63,7 @@ In my case, I am changing the Single (float32) at the right from a 1 to a 0.
 
     ![](https://images-ext-1.discordapp.net/external/xpKyGtXeE2QS4NFh3tZQgOReDM6zUQNC0gbwYsytLoY/https/media.discordapp.net/attachments/797628786530713621/797643454112595999/unknown.png)
 
-13. CTRL + F for the next value (blue) and repeat the above steps. Make sure to select forward. You do not need to go up any lines, keep your selection where it is.
+13. ++ctrl+f++ for the next value (blue) and repeat the above steps. Make sure to select forward. You do not need to go up any lines, keep your selection where it is.
 14. `File` → `Save`.
 Your uasset is now edited with custom EM color values, a backup of the original uasset is automatically created as the .bak file. Just remove the .bak file ending to bring back the original.
 
@@ -76,7 +77,7 @@ EM Intensity can be changed in pretty much the same way, this will change the In
 
     ![](https://images-ext-2.discordapp.net/external/aHO1nQ_Mz4-lg48MPivnC5yDjQMqIMH7zccCU9q3kbQ/https/media.discordapp.net/attachments/833812099263627335/833852232449261578/unknown.png)
 
-2. Find the BDE texture of an EM map you want to change the positioning of. Open the texture and export it with CTRL + x. Keep default settings.
+2. Find the BDE texture of an EM map you want to change the positioning of. Open the texture and export it with ++ctrl+x++. Keep default settings.
 
     ![](https://images-ext-1.discordapp.net/external/nc-rKHShhCVvNIXDkrO6VvEjdmUj6UB4Ed-saZXMbLM/https/media.discordapp.net/attachments/797628786530713621/797649544213037106/unknown.png)
 
@@ -89,12 +90,12 @@ Ignore green, its a bug when exporting with UModel. The brightness of the blue a
 
 Here is an example of a custom BDE by @vic<3#1848 on Discord.
 
-![](https://images-ext-1.discordapp.net/external/0qjs2cEN1u9TCWT0-ltfGprsD8wRhntBo1EsJ_54mw8/https/media.discordapp.net/attachments/797660510287691786/797826177154285578/legacyBDE.png)
+![](https://media.discordapp.net/attachments/797660510287691786/797826177154285578/legacyBDE.png?width=700&height=700)
 
-Continue from part 2 in the [Custom Textures Guide](Textures.md).
+Continue in the [Custom Textures Guide](../Textures/#editing-cooking).
 
-Congrats!
-
-![](https://images-ext-1.discordapp.net/external/sefwHKoPdCysn-ChsnGgm3h3A3WmAlkdnWXOP-fVPcI/https/media.discordapp.net/attachments/788081160328183858/797910592035225600/unknown.png)
-
-You can do the same thing for the flashlight beam color by editing MI_FlashLightBeam_01 and MI_FlashLightBeam_02 (Content/Effects/Materials). It is kind of tedious because there are numerous values to replace.
+!!! success "Congrats!"
+    
+    ![](https://media.discordapp.net/attachments/788081160328183858/797910592035225600/unknown.png?width=410&height=700){ align=left }
+    
+    The same can be done for changing the flashlight beam color by editing `MI_FlashLightBeam_01` and `MI_FlashLightBeam_02`. (`Content/Effects/Materials`)
