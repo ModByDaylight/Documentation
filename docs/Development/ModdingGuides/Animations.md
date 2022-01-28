@@ -16,7 +16,7 @@ This guide will be written for Blender, but it can be followed very easily in th
 
 - [ActorX Importer](https://www.gildor.org/projects/unactorx)
 
-## Part 1: Importing the Base Mesh
+## Importing the Base Mesh
 
 1. Open UModel.
 2. Set the path to game files as the base of your Dead By Daylight files.
@@ -42,7 +42,7 @@ This guide will be written for Blender, but it can be followed very easily in th
 
     ![](https://media.discordapp.net/attachments/847909063542833192/847912607272271882/unknown.png)
 
-## Part 2: Making your animation
+## Making your animation
 
 **Method 1.** Using Mixamo animations.
 Mixamo is a source for free and easy to use animations. This makes it incredibly easy to choose an animation and port it to DBD.
@@ -79,7 +79,7 @@ src="https://www.youtube.com/embed/6Km2COZGYA0">
 Keep it at default settings. (Remember if you unchecked scale down when importing set export scale to 1 and if you left it checked set it to 100)
 For 3ds Max go to `File` → `Export` and choose Export... Leave at default settings.
 
-## Part 3: Cooking in Unreal Engine
+## Cooking in Unreal Engine
 
 1. Go to your project files in File Explorer.
 
@@ -127,7 +127,7 @@ For 3ds Max go to `File` → `Export` and choose Export... Leave at default sett
 12. Get your cooked animation file in your project like shown in previous guides. (For example mine was DBDproject\Saved\Cooked\WindowsNoEditor\DBDproject\Content\Characters\Campers\Common\Animation\Male\AnimSequences\Gestures\M_PointTo)
 13. Replace in your DBD folder.
 
-## Part 4: Increase animation length (OPTIONAL)
+## Increase animation length (OPTIONAL)
 
 1. Download [Helios' Asset Editor](https://cdn.discordapp.com/attachments/838158112749781000/853702841272238111/Asset_Editor_v1.0.3.exe).
 2. Open the AssetEditor.exe and go to `File` → `Open`.
@@ -139,14 +139,14 @@ For example, if I was putting an animation over M_PointTo, I would open AM_M_Poi
     ![](https://media.discordapp.net/attachments/847909063542833192/847922908113928203/unknown.png)
 
 6. Open your .uexp montage file in [HxD](https://mh-nexus.de/en/hxd/).
-7. CTRL F for the SequenceLength value from before. Set the settings exactly like shown in the picture below.
+7. ++ctrl+f++ for the SequenceLength value from before. Set the settings exactly like shown in the picture below.
 
     ![](https://media.discordapp.net/attachments/847909063542833192/847926076101361704/unknown.png)
 
 8. Double check that its set to floating point number in the top right, and then choose "Replace All".
-9. CTRL S to save the file. The length is now set to the length of your animation.
+9. ++ctrl+s++ to save the file. The length is now set to the length of your animation.
 
-## Part 5: Add sounds and particle effects (OPTIONAL)
+## Add sounds and particle effects (OPTIONAL)
 
 ### Adding sounds
 

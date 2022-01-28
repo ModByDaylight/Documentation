@@ -41,7 +41,7 @@ This guide will show you how you can add your own perks with the use of data tab
     | `Perk Category` | Select an appropriate category
     | `Perk Blueprint` | Your perk's blueprint. (You haven't created this yet)
     | `Perk Level Rarity` | Your perk's rarity for each level
-    | `Perk Level Tunables` | How effective your perk is for each level
+    | `Perk Level Tunables` | Allows changing perk description based on the perk level. Entries in this array are indexed from 0, and each entry describes values of the placeholder on each perk level. You can refer to these values as `{0}` in the description text and so on.
 
     ![](https://media.discordapp.net/attachments/917649484450775061/934216465425502248/unknown.png)
 
@@ -79,6 +79,12 @@ This guide will show you how you can add your own perks with the use of data tab
 ## Perk Blueprint
 
 In this example, we are going to make a simple perk using `Gameplay Modifiers`.
+
+??? info "Gameplay Modifiers"
+
+    A lot of logic in Dead By Daylight is based on Gameplay Tags. They are basically tags and flags attached to various objects in the game and changing based on their lifetime and various conditions. A lot of objects have them: Survivors, Killers, Interactable Objects, but their primary effect is on the killers and survivors.
+
+    You have multiple ways of influencing them, either by calling Set Gameplay Tag Value function directly (because if you take a closer look, Perk actually is a child of GameplayModifierContainer), or by using the properties on your perk that apply the modifiers conditionally, e.g. the property PerkLevelData. Each out of 3 values in it correspond to the perk level and has few values: Conditions, Modifiers and Flags. Conditions dictate when the modifications are applied, if you add entry and click there you will see a lot of default conditions you can use. Modifiers apply modifications to the values of chosen gameplay tags, and Flags just set the gameplay tags on the object (e.g. survivor or killer).
 
 1. Navigate to `Content/Blueprints/Perks`. Right click and create a `Blueprint Class` and set the class to `Perk`. 
 2. Double-click on the blueprint and navigate to the `Details` tab.

@@ -53,7 +53,7 @@ Many properties expect another object as the value. Scrolling a bit further we c
 
 ![](https://cdn.discordapp.com/attachments/797737763931291668/820577997924728842/unknown.png)
 
-There are lots of movement related variables here. If we wanted to change the value of MaxAcceleration for example, we'd use the set command. +
+There are lots of movement related variables here. If we wanted to change the value of MaxAcceleration for example, we'd use the set command.
 `set BP_CamperMale01_C_0.CharMoveComp MaxAcceleration <new value>`
 
 This makes our character accelerate to their maximum movement speed incredibly slowly.
@@ -74,7 +74,7 @@ Using `getall physicssettings` doesn't give us any results, so there are no inst
 
 ![](https://media.discordapp.net/attachments/797737763931291668/820582246364479498/unknown.png)
 
-The very first variable is `DefaultGravityZ`, which is a float. Since it's negative by default, making it positive would revert the current gravity. +
+The very first variable is `DefaultGravityZ`, which is a float. Since it's negative by default, making it positive would revert the current gravity.
 `set physicssettings defaultgravityz 980`
 
 Straight away, Dwight's tie started floating up. The player model itself still stuck to the ground though. This is because gravity is not calculated on the player if they're not falling.
@@ -96,7 +96,7 @@ You can set the value of a vector or a similar structure accordingly. Not all va
 
 ## Conclusion
 
-Figuring out the general structure of the classes, what inherits what, where certain stuff generally is and doing what you want to achieve *WILL TAKE TIME* and lots of trial and error, so just do object dumps on classes with interesting names and see if there's anything interesting to modify! +
+Figuring out the general structure of the classes, what inherits what, where certain stuff generally is and doing what you want to achieve *WILL TAKE TIME* and lots of trial and error, so just do object dumps on classes with interesting names and see if there's anything interesting to modify!
 There are thousands of variables to modify with the console, and many many interesting things to do.
 
 ![](https://media.discordapp.net/attachments/797737763931291668/820589565722361906/unknown.png)

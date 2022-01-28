@@ -7,7 +7,7 @@
 - [Psk/Psa Import/Export](https://github.com/Befzz/blender3d_import_psk_psa)
 - [Unreal Engine](https://www.unrealengine.com/en-US/download)
 
-## Part 1: Exporting from Dead By Daylight
+## Exporting from Dead By Daylight
 
 1. Open UModel.
 2. Set the path to game files as the base of your Dead By Daylight files.
@@ -16,10 +16,10 @@
 
 ![](https://images-ext-2.discordapp.net/external/aHO1nQ_Mz4-lg48MPivnC5yDjQMqIMH7zccCU9q3kbQ/https/media.discordapp.net/attachments/833812099263627335/833852232449261578/unknown.png)
 
-5. Find a skeletal mesh you want to replace. Open the skeletal mesh and export it with CTRL + x. Keep default settings.
+5. Find a skeletal mesh you want to replace. Open the skeletal mesh and export it with ++ctrl+x++. Keep default settings.
 6. Find the exported skeletal mesh. You can find where it exported in UModel by going to `Tools` → `Open export folder`.
 
-## Part 2: Replacing the Mesh
+## Replacing the Mesh
 
 1. Open Blender and start a new general file.
 
@@ -98,7 +98,7 @@ src="https://www.youtube.com/embed/sjnxGb5b0lA">
 src="https://www.youtube.com/embed/NJ0EFMiGT0E">
 </iframe>
 
-## Part 3: Cooking in Unreal Engine
+## Cooking in Unreal Engine
 
 1. Open Unreal Engine and open your project. If you havent already made one, refer to the [Custom Textures Guide](../Textures.md).
 2. Now you will have to recreate the folder structure of the original mesh. For example, I would make a folder called Characters, then make a folder inside that called Campers, and so on. Remember it is case sensitive. 
