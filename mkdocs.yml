@@ -83,6 +83,9 @@ nav:
     - Unreal Engine: Development/UnrealEngine/index.md
     - Project Setup: Development/UnrealEngine/ProjectSetup.md
     - Chunking: Development/UnrealEngine/Chunking.md
+  - Dead By Daylight:
+    - Character IDs : Development/DeadByDaylight/CharacterIds.md
+    - Map IDs: Development/DeadByDaylight/MapIds.md
   - Modding Guides:
     - Textures: Development/ModdingGuides/Textures.md
     - Sounds: Development/ModdingGuides/Sounds.md
