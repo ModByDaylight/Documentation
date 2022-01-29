@@ -1,0 +1,39 @@
+| Map                         | Realm                       | ID                 |                                                    Thumbnail                                                     |
+|-----------------------------|-----------------------------|--------------------|:----------------------------------------------------------------------------------------------------------------:|
+| Ironworks of Misery         | The MacMillan Estate        | Ind_Foundry        |   ![](https://media.discordapp.net/attachments/917649484450775061/936776046613766184/iconMap_Ind_Foundry.png)    |
+| Coal Tower                  | The MacMillan Estate        | Ind_CoalTower      |   ![](https://cdn.discordapp.com/attachments/917649484450775061/936776021666070599/iconMap_Ind_CoalTower.png)    |
+| Suffocation Pit             | The MacMillan Estate        | Ind_Mine           |      ![](https://cdn.discordapp.com/attachments/917649484450775061/936776047024816128/iconMap_Ind_Mine.png)      |
+| Shelter Woods               | The MacMillan Estate        | Ind_Forest         |     ![](https://cdn.discordapp.com/attachments/917649484450775061/936776046114664499/iconMap_Ind_Forest.png)     |
+| Groaning Storehouse         | The MacMillan Estate        | Ind_Storehouse     |   ![](https://cdn.discordapp.com/attachments/917649484450775061/936776047339397160/iconMap_Ind_Storehouse.png)   |
+| Wretched Shop               | Autohaven Wreckers          | Jnk_Garage         |     ![](https://cdn.discordapp.com/attachments/917649484450775061/936776048056614972/iconMap_Jnk_Garage.png)     |
+| Azarov’s Resting Place      | Autohaven Wreckers          | Jnk_Office         |     ![](https://cdn.discordapp.com/attachments/917649484450775061/936776045430972426/iconMap_Jnk_Office.png)     |
+| Blood Lodge                 | Autohaven Wreckers          | Jnk_Lodge          |     ![](https://cdn.discordapp.com/attachments/917649484450775061/936776048895467580/iconMap_Jnk_Lodge.png)      |
+| Wreckers' Yard              | Autohaven Wreckers          | Jnk_Scrapyard      |   ![](https://cdn.discordapp.com/attachments/917649484450775061/936776045749747802/iconMap_Jnk_Scrapyard.png)    |
+| Gas Heaven                  | Autohaven Wreckers          | Jnk_GasStation     |   ![](https://cdn.discordapp.com/attachments/917649484450775061/936776048438304818/iconMap_Jnk_GasStation.png)   |
+| The Thompson House          | Coldwind Farm               | Frm_Farmhouse      |   ![](https://cdn.discordapp.com/attachments/917649484450775061/936776022668509248/iconMap_Frm_Farmhouse.png)    |
+| Rancid Abattoir             | Coldwind Farm               | Frm_Slaughterhouse | ![](https://cdn.discordapp.com/attachments/917649484450775061/936776023159218207/iconMap_Frm_Slaughterhouse.png) |
+| Torment Creek               | Coldwind Farm               | Frm_Silo           |      ![](https://cdn.discordapp.com/attachments/917649484450775061/936776022915960894/iconMap_Frm_Silo.png)      |
+| Rotten Fields               | Coldwind Farm               | Frm_CornField      |   ![](https://cdn.discordapp.com/attachments/917649484450775061/936776022421012530/iconMap_Frm_Cornfield.png)    |
+| Fractured Cowshed           | Coldwind Farm               | Frm_Barn           |      ![](https://cdn.discordapp.com/attachments/917649484450775061/936776022119034880/iconMap_Frm_Barn.png)      |
+| Disturbed Ward              | Crotus Prenn Asylum         | Asy_Asylum         |     ![](https://cdn.discordapp.com/attachments/917649484450775061/936775995384557568/iconMap_Asy_Asylum.png)     |
+| Father Campbell's Chapel    | Crotus Prenn Asylum         | Asy_Chapel         |     ![](https://cdn.discordapp.com/attachments/917649484450775061/936775995615236126/iconMap_Asy_Chapel.png)     |
+| Lampkin Lane                | Haddonfield                 | Sub_Street         |     ![](https://cdn.discordapp.com/attachments/917649484450775061/936776064498298911/iconMap_Sub_Street.png)     |
+| The Pale Rose               | Backwater Swamp             | Swp_PaleRose       |    ![](https://cdn.discordapp.com/attachments/917649484450775061/936776065018380398/iconMap_Swp_PaleRose.png)    |
+| Grim Pantry                 | Backwater Swamp             | Swp_GrimPantry     |   ![](https://cdn.discordapp.com/attachments/917649484450775061/936776064703791195/iconMap_Swp_GrimPantry.png)   |
+| Treatment Theatre           | Léry's Memorial Institute   | Hos_Treatment      |   ![](https://cdn.discordapp.com/attachments/917649484450775061/936776023461224608/iconMap_Hos_Treatment.png)    |
+| Mother's Dwelling           | Red Forest                  | Brl_MaHouse        |    ![](https://cdn.discordapp.com/attachments/917649484450775061/936775995816566854/iconMap_Brl_MaHouse.png)     |
+| The Temple of Purgation     | Red Forest                  | Brl_Temple         |     ![](https://cdn.discordapp.com/attachments/917649484450775061/936775996059828234/iconMap_Brl_Temple.png)     |
+| The Game                    | Gideon Meat Plant           | Fin_Hideout        |    ![](https://cdn.discordapp.com/attachments/917649484450775061/936776021871575090/iconMap_Fin_TheGame.png)     |
+| Family Residence            | Yamaoka Estate              | Hti_Manor          |     ![](https://cdn.discordapp.com/attachments/917649484450775061/936776023721250876/iconMap_Hti_Manor.png)      |
+| Sanctum of Wrath            | Yamaoka Estate              | Hti_Shrine         |     ![](https://cdn.discordapp.com/attachments/917649484450775061/936776021317914664/iconMap_Hti_Shrine.png)     |
+| Mount Ormond Resort         | Ormond                      | Kny_Cottage        |    ![](https://cdn.discordapp.com/attachments/917649484450775061/936776064036913203/iconMap_Kny_Cottage.png)     |
+| Badham Preschool I          | Springwood                  | Eng_Street_01      |   ![](https://cdn.discordapp.com/attachments/917649484450775061/936775996630265856/iconMap_Eng_ElmStreet.png)    |
+| Badham Preschool II         | Springwood                  | Eng_Street_02      |  ![](https://cdn.discordapp.com/attachments/917649484450775061/936775997007749161/iconMap_Eng_ElmStreet02.png)   |
+| Badham Preschool III        | Springwood                  | Eng_Street_03      |  ![](https://cdn.discordapp.com/attachments/917649484450775061/936775997255196732/iconMap_Eng_ElmStreet03.png)   |
+| Badham Preschool IV         | Springwood                  | Eng_Street_04      |  ![](https://cdn.discordapp.com/attachments/917649484450775061/936775997523652658/iconMap_Eng_ElmStreet04.png)   |
+| Badham Preschool V          | Springwood                  | Eng_Street_05      |  ![](https://cdn.discordapp.com/attachments/917649484450775061/936775995195793468/iconMap_Eng_ElmStreet05.png)   |
+| The Underground Complex     | Hawkins National Laboratory | Qat_Lab            |      ![](https://cdn.discordapp.com/attachments/917649484450775061/936776064267608094/iconMap_Qat_Lab.png)       |
+| Dead Dawg Saloon            | Grave of Glenvale           | Ukr_Saloon         |     ![](https://cdn.discordapp.com/attachments/917649484450775061/936776065236480000/iconMap_Ukr_Saloon.png)     |
+| Midwich Elementary School   | Silent Hill                 | Wal_Level_01       |    ![](https://cdn.discordapp.com/attachments/917649484450775061/936776065433628682/iconMap_Wal_Level01.png)     |
+| Raccoon City Police Station | Raccoon City                | Ecl_Level_01       |    ![](https://cdn.discordapp.com/attachments/917649484450775061/936775996282114108/iconMap_Ecl_Level01.png)     |
+| Eyrie of Crows              | Forsaken Boneyard           | Ion_Level_01       |    ![](https://cdn.discordapp.com/attachments/917649484450775061/936776047679119401/iconMap_Ion_Level01.png)     |
