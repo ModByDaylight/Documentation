@@ -4,7 +4,7 @@ Here you'll learn the basics of console usage.
 
 By default, the console key is set to ++f10++. Pressing it once will bring up a small single-line console, and pressing it again opens a bigger one allowing you to see its output. You'll find all the console output in the log file as well if needed. The console key can be changed at the bottom of `DefaultInput.ini` in `DeadByDaylight/Config`.
 
-In the console, you'll see text in 3 different colors. Green means it is a console variable (CVar), grey means it's a readonly CVAR and purple means that it is a command / function.
+In the console, you'll see text in 3 different colors. Green means it is a console variable (CVar), grey means it's a readonly CVar and purple means that it is a command / function.
 
 ![](https://media.discordapp.net/attachments/797750180853186560/798223650322251786/unknown.png)
 

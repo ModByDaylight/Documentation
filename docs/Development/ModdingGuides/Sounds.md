@@ -8,7 +8,7 @@ This guide will show you how to replace sounds Dead By Daylight.
 - [DBD Unpacker](https://github.com/BrandonItaly/DBDUnpacker/releases/latest) - Unpacking audio files
 - [BnkEditor](https://cdn.discordapp.com/attachments/844107725092290600/846589986857811968/BnkEditor.exe) - Replacing .wem files in .bnk files
 
-*Additional Resources*
+### Additional Resources
 
 - [DBDSounds](https://github.com/Masusder/DBDSounds) - Collection of all in-game audio in the .wav audio format
 - [WAV Converter](https://audio.online-convert.com/convert-to-wav) - Converting audio files to the Waveform Audio File Format

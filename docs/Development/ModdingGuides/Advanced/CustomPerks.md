@@ -1,9 +1,5 @@
 # Custom Perks Guide
 
-!!! note
-
-    This page is a work in progress.
-
 This guide will show you how you can add your own perks with the use of data tables and blueprints.
 
 ## Prerequisites
