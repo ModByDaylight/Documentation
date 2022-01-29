@@ -37,6 +37,7 @@
     ![](https://media.discordapp.net/attachments/797525681608982538/797533575528185866/unknown.png)
     
     You should now have the model in Blender. Feel free to select the object then right click to shade it smooth.
+
     ![](https://media.discordapp.net/attachments/797525681608982538/797533853227941888/unknown.png)
     
     ![](https://media.discordapp.net/attachments/797525681608982538/797533900225249280/unknown.png)

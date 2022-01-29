@@ -2,14 +2,13 @@
 
 Here you'll learn the basics of console usage.
 
-By default, the console key is set to F10. Pressing it once will bring up a small single-line console, and pressing it again opens a bigger one allowing you to see its output. You'll find all the console output in the log file as well if needed.
-The console key can be changed at the bottom of `DefaultInput.ini` in `DeadByDaylight/Config`.
+By default, the console key is set to ++f10++. Pressing it once will bring up a small single-line console, and pressing it again opens a bigger one allowing you to see its output. You'll find all the console output in the log file as well if needed. The console key can be changed at the bottom of `DefaultInput.ini` in `DeadByDaylight/Config`.
 
 In the console, you'll see text in 3 different colors. Green means it is a console variable (CVar), grey means it's a readonly CVAR and purple means that it is a command / function.
 
 ![](https://media.discordapp.net/attachments/797750180853186560/798223650322251786/unknown.png)
 
-To see the value of a CVar, simply type it's name and hit enter in the console.
+To see the value of a CVar, simply type it's name and hit ++enter++ in the console.
 
 ![](https://media.discordapp.net/attachments/797750180853186560/798223975359578152/unknown.png)
 
@@ -44,3 +43,6 @@ FName = text
 !!! warning
 
     While running the game with steam, do NOT execute commands such as `online.resetachievements` as this will CLEAR ALL DBD ACHIEVEMENTS FROM YOUR PROFILE AND RESET STATS. There are other commands similar to this, so just refrain from trying anything that you suspect might have permanent effects.
+
+*[DBD]: Dead by Daylight
+*[CVar]: Console Variable

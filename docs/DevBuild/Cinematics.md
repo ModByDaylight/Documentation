@@ -4,17 +4,17 @@
 
 There are a few methods of doing this.
 
-1. After loading into a match, press `'` and `tab` to enter into freecam mode. This will leave you with a menu top left so it is not the cleanest. 
+1. After loading into a match, press ++single-quote++ and ++tab++ to enter into freecam mode. This will leave you with a menu top left so it is not the cleanest. 
 
     ![](https://cdn.discordapp.com/attachments/798181143596892161/798184755576832060/unknown.png)
 
-2. After loading into a match, press your console key (default should be F10) and type the command `toggledebugcamera`. This will bring you into a freecam mode but there is still an overlay. You can remove this overlay by hitting `backspace`.
+2. After loading into a match, press your console key (default should be ++f10++) and type the command `toggledebugcamera`. This will bring you into a freecam mode but there is still an overlay. You can remove this overlay by hitting ++backspace++.
 
     ![](https://media.discordapp.net/attachments/798181143596892161/798185512317878323/unknown.png)
     
     ![](https://cdn.discordapp.com/attachments/798181143596892161/798186552371052554/unknown.png)
 
-3. Download the program https://framedsc.github.io/GeneralGuides/universal_ue4_consoleunlocker.htm[Universal Unreal Unlocker]. Once downloaded, run the program and select `Dead By Daylight` and inject the dll.
+3. Download the program [Universal Unreal Unlocker](https://framedsc.github.io/GeneralGuides/universal_ue4_consoleunlocker.htm). Once downloaded, run the program and select `Dead By Daylight` and inject the dll.
 
     ![](https://media.discordapp.net/attachments/798181143596892161/798186997038186506/unknown.png)
     

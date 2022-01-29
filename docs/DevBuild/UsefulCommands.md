@@ -8,7 +8,7 @@
 | --- | ----------- |
 | `DBD_ForceStartMatch` | Forcibly starts the match.
 | `DBD_BackToIIS` | Forcibily causes the player to be sent back to the start screen. Can be used if you get stuck in a loading screen.
-| `SetBind <key> <command>` | Allow the player to set a key to execute a console command. (Ex: `SetBind v Ghost` will make the `V` Key execute the `Ghost` command when pressed.)
+| `SetBind <key> <command>` | Allow the player to set a key to execute a console command. (Ex: `SetBind v Ghost` will make the ++v++ key execute the `Ghost` command when pressed.)
 | `DBD_AddAllItemsAddonsOfferingsToInventory <count>` | Gives the selected character all items, add-ons, and offerings in their inventory.
 | `DBD_AddCells <count>` | Add Auric Cells (Ex: `DBD_AddCells 100000`)
 | `DBD_SpawnItem <item>` | Allows you to spawn any item (Ex: `DBD_SpawnItem Item_Camper_Flashlight` will spawn a yellow flashlight.)
