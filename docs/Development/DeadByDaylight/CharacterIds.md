@@ -14,9 +14,9 @@
 | Quentin Smith           | Quentin    | 11        | QS             |
 | David Tapp              | Eric       | 12        | FS             |
 | Adam Francis            | Adam       | 13        | HS             |
-| Jeffery "Jeff" Johansen | Jeff       | 14        | KS             |
+| Jeff Johansen           | Jeff       | 14        | KS             |
 | Jane Romero             | Jane       | 15        | MS             |
-| Ash J. Williams         | Ash        | 16        | ML             |
+| Ashley J. Williams      | Ash        | 16        | ML             |
 | Nancy Wheeler           | Nancy      | 17        | QF             |
 | Steve Harrington        | Steve      | 18        | QM             |
 | Yui Kimura              | Yui        | 19        | SwedenSurvivor |
