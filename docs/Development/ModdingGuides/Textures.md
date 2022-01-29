@@ -34,7 +34,7 @@ This guide will show you how to replace textures in Dead By Daylight.
 
     ![](https://images-ext-1.discordapp.net/external/sKBqY21L7CvA3sTR8lT2Kn1lV5NrxAl1xgSmI5dTg-w/%3Fwidth%3D1664%26height%3D905/https/media.discordapp.net/attachments/833812099263627335/833852482941354014/unknown.png)
 
-3. When you're finished, save as a .PNG with lossless compression. This will give you the best possible quality with transparency, although most file formats can be used for UE4, so dont feel forced to use .PNG
+3. When you're finished, save as a .PNG with lossless compression. This will give you the best possible quality with transparency, although most file formats can be used in UE, so dont feel forced to use .PNG
 4. Open Unreal Engine
 5. Create a new project with no starter content.
 
@@ -69,3 +69,7 @@ For example, mine would be Content\Characters\Campers\Nea\Textures\Outfit009.
     ![](https://images-ext-1.discordapp.net/external/y4GRIeCnHIvaz5qqeVeyJd0tOq03Ms-odld4qAJsR6E/https/media.discordapp.net/attachments/833812099263627335/833853498093338645/unknown.png)
 
 5. Place the texture where the original was in DBD and replace all.
+
+*[UE]: Unreal Engine
+*[DBD]: Dead by Daylight
+*[UModel]: UE Viewer

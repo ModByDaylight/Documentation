@@ -7,12 +7,12 @@ This guide will be written for Blender, but it can be followed very easily in th
 - [Unreal Engine](https://www.unrealengine.com/en-US/download) (4.25.4)
 - [Animation Fix](https://cdn.discordapp.com/attachments/797693369307496498/909972913766150144/anim-newfix.7z)
 
-*For Blender Users:*
+### For Blender Users
 
 - [Better Fbx Importer & Exporter](https://blendermarket.com/products/better-fbx-importer--exporter)
 - [Psk/Psa Import/Export](https://github.com/Befzz/blender3d_import_psk_psa)
 
-*For 3ds Max Users:*
+### For 3ds Max Users
 
 - [ActorX Importer](https://www.gildor.org/projects/unactorx)
 
@@ -198,3 +198,6 @@ For example, if I was putting an animation over M_PointTo, I would open AM_M_Poi
     ![](https://media.discordapp.net/attachments/847909063542833192/848604740832591882/unknown.png)
 
     ![](https://media.discordapp.net/attachments/847909063542833192/848604777461448735/unknown.png)
+
+*[DBD]: Dead by Daylight
+*[UModel]: UE Viewer

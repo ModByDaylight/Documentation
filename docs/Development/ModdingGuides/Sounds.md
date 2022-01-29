@@ -8,7 +8,7 @@ This guide will show you how to replace sounds Dead By Daylight.
 - [DBD Unpacker](https://github.com/BrandonItaly/DBDUnpacker/releases/latest) - Unpacking audio files
 - [BnkEditor](https://cdn.discordapp.com/attachments/844107725092290600/846589986857811968/BnkEditor.exe) - Replacing .wem files in .bnk files
 
-*Additional Resources*
+### Additional Resources
 
 - [DBDSounds](https://github.com/Masusder/DBDSounds) - Collection of all in-game audio in the .wav audio format
 - [WAV Converter](https://audio.online-convert.com/convert-to-wav) - Converting audio files to the Waveform Audio File Format
@@ -74,8 +74,8 @@ This guide will show you how to replace sounds Dead By Daylight.
     Clicking on a .wem file in RExplorer will play a preview of the audio. The length of the audio file will be displayed at the bottom of the preview.
 
 1. Find the File Id of the .wem file you would like to replace.
-1. Now open BnkEditor and drag and drop the .bnk file you want to edit and press Enter.
-1. Drag and drop the .wem file you want to replace with the audio you previewed in RExplorer and press Enter.
+1. Now open BnkEditor and drag and drop the .bnk file you want to edit and press ++enter++.
+1. Drag and drop the .wem file you want to replace with the audio you previewed in RExplorer and press ++enter++.
 1. Search for the File Id of the .wem file you previewed in RExplorer in the list of .wem files in BnkEditor.
 1. Enter the index of the .wem file you want to replace. A list of indexes and File IDs will be shown in the console.
 1. Your edited .bnk file will be exported where the program's executable file is located.

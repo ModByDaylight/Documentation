@@ -14,13 +14,15 @@
 - [Developer Build (3.0.0)](https://www.mediafire.com/file/w0flhwditpyt4wy/DevBuild.zip/file)
 - [Fiddler](https://www.telerik.com/download/fiddler)
 
-*Instructions*
+## Instructions
 
 1. Download and extract the dev build folder.
 1. Download and install Fiddler.
 1. In Fiddler, go to `Tools` → `Options` → `HTTPS`.
 1. Check the boxes "Capture HTTPS CONNECTs", "Decrypt HTTPS traffic", and "Ignore server certificate errors".
-![](/img/screenshots/DevBuild/fiddler-options.png)
+
+    ![](/img/screenshots/DevBuild/fiddler-options.png)
+
 1. Click to the pop-up asking to trust Fiddler's certificate.
 1. Open the Fiddler script editor by going to `Rules` → `Customize Rules`.
 1. Replace everything in the file with the contents of [this paste](https://pastebin.com/6HbtkGam) and save.
