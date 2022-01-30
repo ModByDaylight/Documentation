@@ -21,6 +21,8 @@ The following steps explain how to create pak files which can be used to install
 
 ## Installing Pak Mods
 
+The following steps explain how to to install pak file mods.
+
 1. Download the `.pak` and `.sig` files for the respective mod.
 1. Drag and drop the `.pak` and `.sig` files into the `~mods` folder in your game files. (`DeadByDaylight/Content/Paks/~mods`)
 1. Launch Dead By Daylight and your mods should be installed.
