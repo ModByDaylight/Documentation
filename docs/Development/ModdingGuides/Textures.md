@@ -72,4 +72,3 @@ For example, mine would be Content\Characters\Campers\Nea\Textures\Outfit009.
 
 *[UE]: Unreal Engine
 *[DBD]: Dead by Daylight
-*[UModel]: UE Viewer

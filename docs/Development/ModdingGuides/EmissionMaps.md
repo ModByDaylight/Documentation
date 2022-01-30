@@ -99,5 +99,3 @@ Continue in the [Custom Textures Guide](../Textures/#editing-cooking).
     ![](https://media.discordapp.net/attachments/788081160328183858/797910592035225600/unknown.png?width=410&height=700){ align=left }
     
     The same can be done for changing the flashlight beam color by editing `MI_FlashLightBeam_01` and `MI_FlashLightBeam_02`. (`Content/Effects/Materials`)
-
-*[UModel]: UE Viewer
