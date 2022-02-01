@@ -9,11 +9,11 @@
 The following steps explain how to create pak files which can be used to install any mod without unpacking your game files.
 
 1. Download and extract the UnrealPak Script.
-2. Double click `gamepath.txt` and enter your Dead By Daylight game path.
-3. Create a new folder named `pakchunk41-WindowsNoEditor` inside the UnrealPak folder.
-4. Place the DeadByDaylight folder of the mod you downloaded into this folder.
-5. Drag and drop the `pakchunk41-WindowsNoEditor` folder onto the `UnrealPak-With-Compression.bat` file. This will pack your files and will automatically move them into the `Paks` folder in your game files. (`DeadByDaylight/Content/Paks`)
-6. Launch Dead By Daylight and your mods should be installed.
+1. Double click `gamepath.txt` and enter your Dead By Daylight game path.
+1. Create a new folder named `pakchunk41-WindowsNoEditor` inside the UnrealPak folder.
+1. Place the DeadByDaylight folder of the mod you downloaded into this folder.
+1. Drag and drop the `pakchunk41-WindowsNoEditor` folder onto the `UnrealPak-With-Compression.bat` file. This will pack your files and will automatically move them into the `Paks` folder in your game files. (`DeadByDaylight/Content/Paks`)
+1. Launch Dead By Daylight and your mods should be installed.
 
 !!! tip
 

@@ -2,14 +2,14 @@
 
 ## Prerequisites
 
-- [UModel](https://www.gildor.org/en/projects/umodel)
+- [UE Viewer](https://www.gildor.org/en/projects/umodel)
 - [Blender](https://www.blender.org/download/)
 - [Psk/Psa Import/Export](https://github.com/Befzz/blender3d_import_psk_psa)
 - [Unreal Engine](https://www.unrealengine.com/en-US/download)
 
 ## Exporting from Dead By Daylight
 
-1. Open UModel.
+1. Open UE Viewer.
 2. Set the path to game files as the base of your Dead By Daylight files.
 3. Check override game detection and select Unreal engine 4.25.
 4. Leave all other settings at default and select OK.
@@ -17,7 +17,7 @@
     ![](https://images-ext-2.discordapp.net/external/aHO1nQ_Mz4-lg48MPivnC5yDjQMqIMH7zccCU9q3kbQ/https/media.discordapp.net/attachments/833812099263627335/833852232449261578/unknown.png)
 
 5. Find a skeletal mesh you want to replace. Open the skeletal mesh and export it with ++ctrl+x++. Keep default settings.
-6. Find the exported skeletal mesh. You can find where it exported in UModel by going to `Tools` → `Open export folder`.
+6. Find the exported skeletal mesh. You can find where it exported in UE Viewer by going to `Tools` → `Open export folder`.
 
 ## Replacing the Mesh
 
@@ -59,7 +59,7 @@
     
     ![](https://media.discordapp.net/attachments/797525681608982538/797534561285701672/unknown.png)
 
-8. Press open on the node and find the texture that goes with your model, it should be somewhere in your UModel export folder. All textures linked to the model are automatically exported with the model.
+8. Press open on the node and find the texture that goes with your model, it should be somewhere in your UE Viewer export folder. All textures linked to the model are automatically exported with the model.
 
     (For example, mine were in Characters\Campers\Nea\Textures\Outfit00 and Characters\Campers\Nea\Textures\Outfit01)
     
