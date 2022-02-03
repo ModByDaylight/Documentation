@@ -4,17 +4,17 @@ This guide will show you how to change the values of emission maps, such as the 
 
 ## Prerequisites
 
-- [UModel](https://www.gildor.org/en/projects/umodel)
+- [UE Viewer](https://www.gildor.org/en/projects/umodel)
 - [HxD](https://mh-nexus.de/en/hxd/)
 
 ## How to change the color of EM Maps
 
-1. Open your Dead By Daylight folder in UModel.
+1. Open your Dead By Daylight folder in UE Viewer.
 
     ![](https://images-ext-2.discordapp.net/external/aHO1nQ_Mz4-lg48MPivnC5yDjQMqIMH7zccCU9q3kbQ/https/media.discordapp.net/attachments/833812099263627335/833852232449261578/unknown.png)
 
 2. Find a material with an EM map and export it with ++ctrl+x++.
-3. Find the exported material and open the `props.txt` file. You can find where it exported in UModel by going to `Tools` → `Open export folder`.
+3. Find the exported material and open the `props.txt` file. You can find where it exported in UE Viewer by going to `Tools` → `Open export folder`.
 
     ![](https://images-ext-1.discordapp.net/external/wL-IQOvWwgF45izD7s5F6b3utOfQwoYrdTJubwTwEaI/https/media.discordapp.net/attachments/797628786530713621/797634032007381062/unknown.png)
 
@@ -73,7 +73,7 @@ EM Intensity can be changed in pretty much the same way, this will change the In
 
 ## How to change the position of EM Maps
 
-1. Open your Dead By Daylight folder in UModel.
+1. Open your Dead By Daylight folder in UE Viewer.
 
     ![](https://images-ext-2.discordapp.net/external/aHO1nQ_Mz4-lg48MPivnC5yDjQMqIMH7zccCU9q3kbQ/https/media.discordapp.net/attachments/833812099263627335/833852232449261578/unknown.png)
 
@@ -81,12 +81,12 @@ EM Intensity can be changed in pretty much the same way, this will change the In
 
     ![](https://images-ext-1.discordapp.net/external/nc-rKHShhCVvNIXDkrO6VvEjdmUj6UB4Ed-saZXMbLM/https/media.discordapp.net/attachments/797628786530713621/797649544213037106/unknown.png)
 
-3. Find the exported texture and open it in your photo editing software of choice (Paint.net, Gimp, and Photoshop all work well.) You can find where it exported in UModel by going to `Tools` → `Open export folder`.
+3. Find the exported texture and open it in your photo editing software of choice (Paint.net, Gimp, and Photoshop all work well.) You can find where it exported in UE Viewer by going to `Tools` → `Open export folder`.
 4. Edit the texture with a side-by-side view of the original for comparison on where to paint.
 
     ![](https://images-ext-2.discordapp.net/external/J-g_KPyoaZSUIu2hgVYZgyWzO2LZtYhl3QefPWGN3NQ/https/media.discordapp.net/attachments/797628786530713621/797658686205460520/unknown.png)
 
-Ignore green, its a bug when exporting with UModel. The brightness of the blue and where you place it determines how the legacy will look. If you paint with blue at max brightness it will be the most bright, if you paint with half it will be half, etc.
+    Ignore green, its a bug when exporting with UE Viewer. The brightness of the blue and where you place it determines how the legacy will look. If you paint with blue at max brightness it will be the most bright, if you paint with half it will be half, etc.
 
 Here is an example of a custom BDE by @vic<3#1848 on Discord.
 

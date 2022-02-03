@@ -19,9 +19,10 @@ Download the materials then extract the Content folder into your project's Conte
 ## Directories to never cook
 
 There are some directories you should never cook, which can be set in the project settings. These directories are:
-- Content\Characters\Campers\Materials
-- Content\Characters\Slashers\Materials
-- Content\Characters\Slashers\MaterialFunctions
+
+- `Content\Characters\Campers\Materials`
+- `Content\Characters\Slashers\Materials`
+- `Content\Characters\Slashers\MaterialFunctions`
 
 <video width="640" height="360" controls>
   <source src="https://cdn.discordapp.com/attachments/908765177644724294/909137802216738866/Desktop_2021.11.12_-_17.22.59.05.mp4" type="video/mp4">
@@ -111,5 +112,8 @@ If you want your emissive area to be solid color instead of having an embers loo
 
 ### Texture Based EM Colors
 
+## Prerequisites
+
 [Modded Material Instances for texture based EM Colors](https://drive.google.com/file/d/1fCAqDUUMqal5ZbcXSYmghliOg_RYcYzg/view?usp=sharing)
-<br>Place this modded Slasher_Cust in Slashers/Materials and this Camper_Cust in Campers/Materials. If your mod uses them direct them to this link. Do not include them in the mod itself. This way if its ever updated everyone will have the same version!
+
+Place the modded Slasher_Cust in `Content/Slashers/Materials` and the Camper_Cust in `Content/Campers/Materials`. If your mod uses them direct them to this link. Do not include them in the mod itself. This way if its ever updated everyone will have the same version!

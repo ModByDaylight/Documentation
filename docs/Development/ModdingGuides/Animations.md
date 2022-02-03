@@ -4,6 +4,7 @@ This guide will be written for Blender, but it can be followed very easily in th
 
 ## Prerequisites
 
+- [UE Viewer](https://www.gildor.org/en/projects/umodel)
 - [Unreal Engine](https://www.unrealengine.com/en-US/download) (4.25.4)
 - [Animation Fix](https://cdn.discordapp.com/attachments/797693369307496498/909972913766150144/anim-newfix.7z)
 
@@ -18,7 +19,7 @@ This guide will be written for Blender, but it can be followed very easily in th
 
 ## Importing the Base Mesh
 
-1. Open UModel.
+1. Open UE Viewer.
 2. Set the path to game files as the base of your Dead By Daylight files.
 3. Check override game detection and select Unreal engine 4.25.
 4. Leave all other settings at default and select OK.
