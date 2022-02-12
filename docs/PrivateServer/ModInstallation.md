@@ -2,27 +2,26 @@
 
 ## Prerequisites
 
-- [UnrealPak Script](https://cdn.discordapp.com/attachments/838158112749781000/929249085154803802/UnrealPak.zip)
+- [Private Server](https://github.com/ModByDaylight/PrivateServer/releases)
 
 ## Creating Pak Mods
 
-The following steps explain how to create pak files which can be used to install any mod without unpacking your game files.
+Download the Private Server folder from the releases page on GitHub. Unzip `PrivateServer.zip` to get the necessary files.
 
-1. Download and extract the UnrealPak Script.
-1. Double click `gamepath.txt` and enter your Dead By Daylight game path.
-1. Create a new folder named `pakchunk41-WindowsNoEditor` inside the UnrealPak folder.
-1. Place the DeadByDaylight folder of the mod you downloaded into this folder.
-1. Drag and drop the `pakchunk41-WindowsNoEditor` folder onto the `UnrealPak-With-Compression.bat` file. This will pack your files and will automatically move them into the `Paks` folder in your game files. (`DeadByDaylight/Content/Paks`)
-1. Launch Dead By Daylight and your mods should be installed.
+Run the `PrivateSeverLauncher.bat` and follow the setup steps. Once the setup has been completed, create a new folder named `pakchunkXX-[PlatformName]` inside the UnrealPak folder.
 
 !!! tip
 
-    The number in the pakchunk name should be increased by one each time you install a new mod. Text can also be placed after the number in the pak file name. This should be done to avoid conflicting Paks.
+    `[PlatformName]` should be replaced with the naming the platform you are playing on uses, i.e. `WindowsNoEditor` for Steam and `EGS` for Epic Games Store. The "XX" in the pakchunk name should also be replaced with numbers that are not already being used by another pakchunk.
 
-## Installing Pak Mods
+Place the `DeadByDaylight` folder of the unpackaged mod you are installing into this folder. If you already have the `.pak` and `.sig` files for the mod you are installing, you can skip to the [Installing Pak Mods](#installing-pak-mods) section. 
 
-The following steps explain how to to install pak file mods.
+Drag and drop the `pakchunkXX-[PlatformName]` folder onto the `UnrealPak-With-Compression.bat` file. This will pack your files and will automatically move them into the `~mods` folder in your game files. (`DeadByDaylight/Content/Paks/~mods`)
 
-1. Download the `.pak` and `.sig` files for the respective mod.
-1. Drag and drop the `.pak` and `.sig` files into the `~mods` folder in your game files. (`DeadByDaylight/Content/Paks/~mods`)
-1. Launch Dead By Daylight and your mods should be installed.
+### Installing Pak Mods
+
+Download the `.pak` and `.sig` files for the respective mod drag and drop them into the `~mods` folder in your game files. (`DeadByDaylight/Content/Paks/~mods`)
+
+!!! success
+
+    Now that you've packaged the assets into a pak file, Dead by Daylight should launch with your mods enabled.
