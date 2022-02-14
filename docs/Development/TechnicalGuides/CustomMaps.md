@@ -18,6 +18,14 @@ Download the Procedural Level Generation files. Unzip `ProceduralLevelGeneration
 
 ## Creating Tiled Maps
 
+1. Navigate to `/Content/ProceduralLevelGeneration/TiledMaps/Completed` and right click to create a new tile map asset in one of the existing realm subdirectories. You can rename this tile map to whatever you want.
+
+    ![](https://media.discordapp.net/attachments/917649484450775061/942689326666514493/unknown.png)
+
+1. Open your tile map and create five new tile layers named `Base`, `Paths`, `Types`, `Numbers`, and `Tags`.
+
+    ![](https://media.discordapp.net/attachments/917649484450775061/942692044479025162/unknown.png)
+
 ## Procedural Maps Data Table
 
 ## Custom Map Tiles
