@@ -76,7 +76,7 @@ This guide will show you how you can add your own perks with the use of data tab
 
 In this example, we are going to make a simple perk using `Gameplay Modifiers`.
 
-??? info "Gameplay Modifiers"
+!!! info "Gameplay Modifiers"
 
     A lot of logic in Dead By Daylight is based on Gameplay Tags. They are basically tags and flags attached to various objects in the game and changing based on their lifetime and various conditions. A lot of objects have them: Survivors, Killers, Interactable Objects, but their primary effect is on the killers and survivors.
 
