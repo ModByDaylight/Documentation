@@ -98,10 +98,10 @@ nav:
     - Physics: Development/ModdingGuides/Physics.md
     - Animations: Development/ModdingGuides/Animations.md
   - Technical Modding Guides:
-    - Custom Cosmetics: Development/TechnicalGuides/CustomCosmetics.md
-    - Custom Items: Development/TechnicalGuides/CustomItems.md
-    - Custom Perks: Development/TechnicalGuides/CustomPerks.md
-    - Custom Maps: Development/TechnicalGuides/CustomMaps.md
+    - Cosmetics: Development/TechnicalGuides/CustomCosmetics.md
+    - Items: Development/TechnicalGuides/CustomItems.md
+    - Perks: Development/TechnicalGuides/CustomPerks.md
+    - Maps: Development/TechnicalGuides/CustomMaps.md
 - Private Server:
   - Private Server: PrivateServer/index.md
   - Mod Installation: PrivateServer/ModInstallation.md
