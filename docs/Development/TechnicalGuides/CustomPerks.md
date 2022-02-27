@@ -4,7 +4,7 @@ This guide will show you how you can add your own perks with the use of data tab
 
 ## Prerequisites
 
-- [Project Setup](../../../Development/UnrealEngine/ProjectSetup.md)
+- [Project Setup](../../Development/UnrealEngine/ProjectSetup.md)
 
 ## Perk Data Table
 

@@ -8,7 +8,7 @@ This guide will show you how you can add your own maps and tiles with the use of
 
 ## Prerequisites
 
-- [Project Setup](../../../Development/UnrealEngine/ProjectSetup.md)
+- [Project Setup](../../Development/UnrealEngine/ProjectSetup.md)
 - [Procedural Level Generation](https://cdn.discordapp.com/attachments/917649484450775061/940370562751029338/ProceduralLevelGeneration.zip)
 - [Asset Registry Helper](https://cdn.discordapp.com/attachments/877980209083723797/908631102703403018/AssetRegistryHelper.zip)
 

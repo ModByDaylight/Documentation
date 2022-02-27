@@ -4,7 +4,7 @@ This guide will show you how you can add your own customization items with the u
 
 ## Prerequisites
 
-- [Project Setup](../../../Development/UnrealEngine/ProjectSetup.md)
+- [Project Setup](../../Development/UnrealEngine/ProjectSetup.md)
 
 ## Customization Item Data Table
 
