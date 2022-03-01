@@ -86,6 +86,7 @@ nav:
   - Dead By Daylight:
     - Character IDs : Development/DeadByDaylight/CharacterIds.md
     - Map IDs: Development/DeadByDaylight/MapIds.md
+    - Status Effect IDs: Development/DeadByDaylight/StatusEffectIds.md
   - Modding Guides:
     - Textures: Development/ModdingGuides/Textures.md
     - Sounds: Development/ModdingGuides/Sounds.md
