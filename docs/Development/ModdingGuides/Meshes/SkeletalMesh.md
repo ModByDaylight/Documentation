@@ -14,7 +14,7 @@
 3. Check override game detection and select Unreal engine 4.25.
 4. Leave all other settings at default and select OK.
 
-    ![](https://images-ext-2.discordapp.net/external/aHO1nQ_Mz4-lg48MPivnC5yDjQMqIMH7zccCU9q3kbQ/https/media.discordapp.net/attachments/833812099263627335/833852232449261578/unknown.png)
+    ![](https://cdn.discordapp.com/attachments/756720238967390312/967661168346935366/unknown.png)
 
 5. Find a skeletal mesh you want to replace. Open the skeletal mesh and export it with ++ctrl+x++. Keep default settings.
 6. Find the exported skeletal mesh. You can find where it exported in UE Viewer by going to `Tools` → `Open export folder`.

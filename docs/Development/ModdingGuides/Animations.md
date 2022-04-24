@@ -24,7 +24,7 @@ This guide will be written for Blender, but it can be followed very easily in th
 3. Check override game detection and select Unreal engine 4.25.
 4. Leave all other settings at default and select OK.
 
-    ![](https://images-ext-2.discordapp.net/external/aHO1nQ_Mz4-lg48MPivnC5yDjQMqIMH7zccCU9q3kbQ/https/media.discordapp.net/attachments/833812099263627335/833852232449261578/unknown.png)
+    ![](https://cdn.discordapp.com/attachments/756720238967390312/967661168346935366/unknown.png)
 
 5. Export the mesh of the survivor you would like to use. 
 
