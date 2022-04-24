@@ -11,7 +11,7 @@
 
 1. Open UE Viewer.
 2. Set the path to game files as the base of your Dead By Daylight files.
-3. Check override game detection and select Unreal engine 4.25.
+3. Check override game detection and select Unreal engine 4.27.
 4. Leave all other settings at default and select OK.
 
     ![](https://cdn.discordapp.com/attachments/756720238967390312/967661168346935366/unknown.png)
