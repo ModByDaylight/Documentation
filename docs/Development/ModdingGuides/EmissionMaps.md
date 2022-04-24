@@ -11,7 +11,7 @@ This guide will show you how to change the values of emission maps, such as the 
 
 1. Open your Dead By Daylight folder in UE Viewer.
 
-    ![](https://images-ext-2.discordapp.net/external/aHO1nQ_Mz4-lg48MPivnC5yDjQMqIMH7zccCU9q3kbQ/https/media.discordapp.net/attachments/833812099263627335/833852232449261578/unknown.png)
+    ![](https://cdn.discordapp.com/attachments/756720238967390312/967661168346935366/unknown.png)
 
 2. Find a material with an EM map and export it with ++ctrl+x++.
 3. Find the exported material and open the `props.txt` file. You can find where it exported in UE Viewer by going to `Tools` → `Open export folder`.
