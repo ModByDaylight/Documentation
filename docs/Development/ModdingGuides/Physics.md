@@ -1,4 +1,4 @@
-# Animations Guide
+# Physics Guide
 
 ## Prerequisites
 
