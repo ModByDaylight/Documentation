@@ -1,6 +1,6 @@
 # Unreal Engine
 
-Dead By Daylight uses Unreal Engine 4.25.4 as its Game Engine.
+Dead By Daylight uses Unreal Engine 4.27.2 as its Game Engine.
 UE provides a solid framework for developing fast executing native code and an interface for artists to use an easier way for creating content.
 
 In this section we go over some minor basics you should know.
