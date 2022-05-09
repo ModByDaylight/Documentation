@@ -2,3 +2,7 @@ build/
 node_modules/
 site/
 docs/style.css
+.DS_Store
+docs/.DS_Store
+docs/img/.DS_Store
+docs/img/screenshots/.DS_Store

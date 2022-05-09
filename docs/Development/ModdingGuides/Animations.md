@@ -24,11 +24,11 @@ This guide will be written for Blender, but it can be followed very easily in th
 3. Check override game detection and select Unreal engine 4.25.
 4. Leave all other settings at default and select OK.
 
-    ![](https://images-ext-2.discordapp.net/external/aHO1nQ_Mz4-lg48MPivnC5yDjQMqIMH7zccCU9q3kbQ/https/media.discordapp.net/attachments/833812099263627335/833852232449261578/unknown.png)
+    ![](/img/screenshots/UModel/UModel-Settings.png)
 
 5. Export the mesh of the survivor you would like to use. 
 
-    ![](https://media.discordapp.net/attachments/847909063542833192/847911731967557652/unknown.png)
+    ![](/img/screenshots/UModel/UModel-Save.png)
 
     I usually use Dwight_REF in Characters\Campers\Dwight\Models for males and MegSkeleton01_REF in Characters\Campers\Meg\Models for females.
     
@@ -39,9 +39,9 @@ This guide will be written for Blender, but it can be followed very easily in th
 
 6. Import the psk of the mesh you just exported.
 
-    ![](https://media.discordapp.net/attachments/847909063542833192/847912498991857684/unknown.png)
+    ![](/img/screenshots/Blender/Blender-Import1.png)
 
-    ![](https://media.discordapp.net/attachments/847909063542833192/847912607272271882/unknown.png)
+    ![](/img/screenshots/Blender/Blender-Import2.png)
 
 ## Making your animation
 
@@ -55,12 +55,12 @@ For 3ds Max go to `File` → `Export` and choose Export... Leave at default sett
 2. Go to Mixamo.com and create an account.
 3. After creating an account, go to the Animations tab.
 
-    ![](https://media.discordapp.net/attachments/847909063542833192/847913373475536936/unknown.png)
+    ![](/img/screenshots/Mixamo/Mixamo-Home.png)
 
 5. Choose upload character and drag the FBX you exported from Blender or 3ds Max into Mixamo.
 6. Find an animation from Mixamo you like and export it.
 
-    ![](https://media.discordapp.net/attachments/847909063542833192/847914366657101874/unknown.png)
+    ![](/img/screenshots/Mixamo/Mixamo-Save.png)
 
 **Method 2.** Creating your own animations.
 <br>With your reference model in 3ds Max, you can create any animation you want. I will drop some animation tutorials here for reccomendations.
@@ -84,45 +84,45 @@ For 3ds Max go to `File` → `Export` and choose Export... Leave at default sett
 
 1. Go to your project files in File Explorer.
 
-    ![](https://media.discordapp.net/attachments/847909063542833192/847915478165094420/unknown.png)
+    ![](/img/screenshots/Animations-Project/Animations-Explorer.png)
 
 2. Extract the animation fix content folder into your Unreal project. 
 
     <video width="640" height="360" controls>
-        <source src="https://cdn.discordapp.com/attachments/847909063542833192/847915716069163073/ExtractingIntoProject.mp4" type="video/mp4">
+        <source src="/img/screenshots/Animations-Project/Animations-Extracting.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 
 3. Recreate the folder structure the animation you are replacing.
 
-    ![](https://media.discordapp.net/attachments/847909063542833192/847915783568621618/unknown.png)
+    ![](/img/screenshots/Animations-Project/Animations-Structure.png)
 
 4. Import your animation fbx into Unreal Engine. Make sure Import Animations is checked.
 5. Select the skeleton for the mesh that you're using. For example, if I was making a survivor animation, I would select CamperMale_REF_Skeleton. Killer would be SlasherMale_REF_Skeleton and survivor lobby animations would be CamperMenu_REF_Skeleton.
 
-    ![](https://media.discordapp.net/attachments/847909063542833192/847915892780433435/unknown.png)
+    ![](/img/screenshots/Animations-Project/Animations-Import.png)
 
 6. You should now have a couple files from your imported FBX.
 
-    ![](https://media.discordapp.net/attachments/847909063542833192/847915969149009990/unknown.png)
+    ![](/img/screenshots/Animations-Project/Animations-Imported.png)
 
 7. All the material files can be deleted.
 
-    ![](https://media.discordapp.net/attachments/847909063542833192/847916048975134772/unknown.png)
+    ![](/img/screenshots/Animations-Project/Animations-DeletedMats.png)
 
 8. If you're using a Mixamo animation, you can delete any of the Take animation files.
 
-    ![](https://media.discordapp.net/attachments/847909063542833192/847916164260036688/unknown.png)
+    ![](/img/screenshots/Animations-Project/Animations-DeletedMixamo.png)
 
 9. Rename the your animation asset to the animation from DBD you are replacing.
 
-    ![](https://media.discordapp.net/attachments/847909063542833192/847916264772075640/unknown.png)
+    ![](/img/screenshots/Animations-Project/Animations-Renamed.png)
 
     The mesh and physics asset can be ignored, you dont have to do anything with them.
     
     Opening the animation file lets you preview it in Unreal Engine.
 
-    ![](https://media.discordapp.net/attachments/847909063542833192/847916402907021363/unknown.png)
+    ![](/img/screenshots/Animations-Project/Animations-Preview.png)
 
 10. Save all and select `File` → `Cook Content For Windows`.
 12. Get your cooked animation file in your project like shown in previous guides. (For example mine was DBDproject\Saved\Cooked\WindowsNoEditor\DBDproject\Content\Characters\Campers\Common\Animation\Male\AnimSequences\Gestures\M_PointTo)
@@ -137,12 +137,12 @@ For example, if I was putting an animation over M_PointTo, I would open AM_M_Poi
 4. With your montage opened, navigate to `Blocks` → `Block` 1 → `AnimMontage`.
 5. Check the value of the SequenceLength and remember that number (or write it down).
 
-    ![](https://media.discordapp.net/attachments/847909063542833192/847922908113928203/unknown.png)
+    ![](/img/screenshots/Animations-Project/Animations-AssetEditor.png)
 
 6. Open your .uexp montage file in [HxD](https://mh-nexus.de/en/hxd/).
 7. ++ctrl+f++ for the SequenceLength value from before. Set the settings exactly like shown in the picture below.
 
-    ![](https://media.discordapp.net/attachments/847909063542833192/847926076101361704/unknown.png)
+    ![](/img/screenshots/Animations-Project/Animations-HXD.png)
 
 8. Double check that its set to floating point number in the top right, and then choose "Replace All".
 9. ++ctrl+s++ to save the file. The length is now set to the length of your animation.
@@ -153,34 +153,34 @@ For example, if I was putting an animation over M_PointTo, I would open AM_M_Poi
 
 1. Download a .wav audio file and drag it into your Unreal project. (The audio file must be a .wav)
 
-    ![](https://media.discordapp.net/attachments/847909063542833192/848588057678184488/unknown.png)
+    ![](/img/screenshots/Animations-Project/Animations-SoundPreview.png)
 
 2. Double click on the animation file you want to add the sound to.
 3. In the animation editor, open the notify track and add a sound notify.
 
-    ![](https://media.discordapp.net/attachments/847909063542833192/848589638289326090/unknown.png)
+    ![](/img/screenshots/Animations-Project/Animations-AddNotify.png)
 
     If you don't already have a notify track, you can insert one by clicking on the drop-down arrow.
 
-    ![](https://media.discordapp.net/attachments/847909063542833192/848589840337207317/unknown.png)
+    ![](    /img/screenshots/Animations-Project/Animations-AddNotifyTrack.png)
 
 4. Click on the anim notify you just created, and view it in the Details tab.
 
-    ![](https://cdn.discordapp.com/attachments/847909063542833192/848590148512907305/unknown.png)
+    ![](/img/screenshots/Animations-Project/Animations-Details.png)
 
     If you dont have the Details tab, go to `Windows` → `Details` and make sure it is checked.
 
-    ![](https://cdn.discordapp.com/attachments/847909063542833192/848590260987756554/unknown.png)
+    ![](/img/screenshots/Animations-Project/Animations-ShowDetails.png)
 
 5. Select your sound and add it!
 
-    ![](https://media.discordapp.net/attachments/847909063542833192/848590442807427092/unknown.png)
+    ![](/img/screenshots/Animations-Project/Animations-AddSound.png)
 
     Feel free to change any of the other settings here.
     
     Please note that the location you place your notify in is the part of the animation it plays at. 
     
-    ![](https://cdn.discordapp.com/attachments/847909063542833192/848590657932492810/unknown.png)
+    ![](/img/screenshots/Animations-Project/Animations-NotifyLocation.png)
 
 ### Adding particle effects (HARD)
 
@@ -192,12 +192,12 @@ For example, if I was putting an animation over M_PointTo, I would open AM_M_Poi
     
     Here is an example of my blood effect material.
     
-    ![](https://media.discordapp.net/attachments/847909063542833192/848602221838204948/unknown.png)
+    ![](/img/screenshots/Animations-Project/Animations-BloodPreview.png)
 
 2. Once your particle system is ready, you can add a notify to your animation for your particle effect.
 
-    ![](https://media.discordapp.net/attachments/847909063542833192/848604740832591882/unknown.png)
+    ![](/img/screenshots/Animations-Project/Animations-AddNotifyParticles.png)
 
-    ![](https://media.discordapp.net/attachments/847909063542833192/848604777461448735/unknown.png)
+    ![](/img/screenshots/Animations-Project/Animations-ParticlePreview.png)
 
 *[DBD]: Dead by Daylight
