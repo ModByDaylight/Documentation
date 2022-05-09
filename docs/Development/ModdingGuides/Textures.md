@@ -12,10 +12,10 @@ This guide will show you how to replace textures in Dead By Daylight.
 
 1. Open UE Viewer.
 2. Set the path to game files as the base of your Dead By Daylight files.
-3. Check override game detection and select Unreal engine 4.25.
+3. Check override game detection and select Unreal engine 4.27.
 4. Leave all other settings at default and select OK.
 
-    ![](https://images-ext-2.discordapp.net/external/aHO1nQ_Mz4-lg48MPivnC5yDjQMqIMH7zccCU9q3kbQ/https/media.discordapp.net/attachments/833812099263627335/833852232449261578/unknown.png)
+    ![](https://cdn.discordapp.com/attachments/756720238967390312/967661168346935366/unknown.png)
     
     UE Viewer will now attempt to open all DBD game files, this process can take anywhere from a couple seconds to a couple minutes. If it takes exceedingly long (>10 minutes) recheck all settings are correct and try again.
 
