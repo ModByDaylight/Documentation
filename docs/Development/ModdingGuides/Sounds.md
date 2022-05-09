@@ -7,6 +7,7 @@ This guide will show you how to replace sounds Dead By Daylight.
 - [Wwise Launcher](https://www.audiokinetic.com/download/) - Creating .wem files from audio files
 - [DBD Unpacker](https://github.com/BrandonItaly/DBDUnpacker/releases/latest) - Unpacking audio files
 - [BnkEditor](https://cdn.discordapp.com/attachments/844107725092290600/846589986857811968/BnkEditor.exe) - Replacing .wem files in .bnk files
+- [RExplorer](https://www.scampers.org/steve/sms/other/RavioliGameTools_v2.10.zip) - Previewing .wem files in .bnk files
 
 ### Additional Resources
 
