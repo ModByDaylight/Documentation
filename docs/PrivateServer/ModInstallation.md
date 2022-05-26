@@ -16,11 +16,11 @@ Run the `PrivateSeverLauncher.bat` and follow the setup steps. Once the setup ha
 
 Place the `DeadByDaylight` folder of the unpackaged mod you are installing into this folder. If you already have the `.pak` file for the mod you are installing, you can skip to the [Installing Pak Mods](#installing-pak-mods) section. 
 
-Drag and drop the `pakchunkXX-[PlatformName]` folder onto the `UnrealPak-With-Compression.bat` file. This will pack your files and will automatically move them into the `~mods` folder in your game files. (`DeadByDaylight/Content/Paks/~mods`)
+Drag and drop the `pakchunkXX-[PlatformName]` folder onto the `UnrealPak.bat` file. This will pack your files and will automatically move them into the `Paks` folder in your game files. (`DeadByDaylight/Content/Paks`)
 
 ### Installing Pak Mods
 
-Download the `.pak` file for the respective mod drag and drop them into the `~mods` folder in your game files. (`DeadByDaylight/Content/Paks/~mods`)
+Download the `.pak` file for the respective mod drag and drop them into the `Paks` folder in your game files. (`DeadByDaylight/Content/Paks`)
 
 !!! success
 
