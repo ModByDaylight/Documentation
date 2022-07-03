@@ -16,7 +16,7 @@ In this page, we will provide some surface level information for both mod users 
 
 !!! note
 
-    If you want to take part in our community, we recommend you join our [Discord Server](https://discord.gg/mbd).
+    If you want to take part in our community, we recommend you join our [Discord Server](https://discord.gg/xkbgW3aCRJ).
 
 ## Getting Started
 
