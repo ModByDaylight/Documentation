@@ -1,5 +1,6 @@
 # Resources
 
+- [Mod By Daylight](https://discord.gg/xkbgW3aCRJ) - Our Discord Server. You can use the /dbd commands on the Mod By Daylight Discord Bot to get information about characters and other useful things.
 - [Unreal Engine](https://www.unrealengine.com/en-US/download) - Used to cook assets that the game can read.
 - [UE Viewer](https://www.gildor.org/en/projects/umodel) - Used to view and export textures, models, animations, and more.
 - [FModel](https://github.com/iAmAsval/FModel) - Beginner-friendly and open-source software for data-mining games made with Unreal Engine.
