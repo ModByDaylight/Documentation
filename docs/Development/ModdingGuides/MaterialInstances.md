@@ -119,7 +119,3 @@ Set up your emission as usual, However leave `EM Color` and `Emissive Touch` at 
 And you're good to go.
 
 ## Prerequisites
-
-[Modded Material Instances for texture based EM Colors](https://cdn.discordapp.com/attachments/917649484450775061/1008992938132504616/AdamEmissionInstances.7z)
-
-Place this Pak/Sig in your Paks folder like a normal mod, and you're good to go!
