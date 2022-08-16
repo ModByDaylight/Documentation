@@ -5,7 +5,7 @@ This guide will show you how to create custom material instances in Dead By Dayl
 ## Prerequisites
 
 - [Unreal Engine](https://www.unrealengine.com/en-US/download)
-- [Materials](https://cdn.discordapp.com/attachments/838158112749781000/1008477810534383716/Content.7z)
+- [Materials](https://cdn.discordapp.com/attachments/917649484450775061/1008993383219470386/Content.7z)
 
 ## Importing the materials into your Unreal Project
 
@@ -112,8 +112,14 @@ If you want your emissive area to be solid color instead of having an embers loo
 
 ### Texture Based EM Colors
 
+These materials work just like `MI_Camper_Cust` and `MI_Slasher_Cust` but the `Emissive_Tileable_Texture` controls the color of the emission instead of `EM Color` and `Emissive Touch`
+To use these simply change your parent material to `MI_Camper_Cust_AdamEmission` for survivors or `MI_Slasher_Cust_AdamEmission`
+ for killers. 
+Set up your emission as usual, However leave `EM Color` and `Emissive Touch` at Their default values, then change `Emissive_Tileable_Texture` to your desired texture.
+And you're good to go.
+
 ## Prerequisites
 
-[Modded Material Instances for texture based EM Colors](https://drive.google.com/file/d/1fCAqDUUMqal5ZbcXSYmghliOg_RYcYzg/view?usp=sharing)
+[Modded Material Instances for texture based EM Colors](https://cdn.discordapp.com/attachments/917649484450775061/1008992938132504616/AdamEmissionInstances.7z)
 
-Place the modded Slasher_Cust in `Content/Slashers/Materials` and the Camper_Cust in `Content/Campers/Materials`. If your mod uses them direct them to this link. Do not include them in the mod itself. This way if its ever updated everyone will have the same version!
+Place this Pak/Sig in your Paks folder like a normal mod, and you're good to go!
