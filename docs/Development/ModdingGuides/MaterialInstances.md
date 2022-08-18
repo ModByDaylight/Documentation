@@ -5,7 +5,7 @@ This guide will show you how to create custom material instances in Dead By Dayl
 ## Prerequisites
 
 - [Unreal Engine](https://www.unrealengine.com/en-US/download)
-- [Materials](https://cdn.discordapp.com/attachments/917649484450775061/1009621770766131303/Content.7z)
+- [Materials](https://github.com/YourlordAdam/ModbyDaylight-EditorMaterials)
 
 ## Importing the materials into your Unreal Project
 
