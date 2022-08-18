@@ -5,7 +5,7 @@ This guide will show you how to create custom material instances in Dead By Dayl
 ## Prerequisites
 
 - [Unreal Engine](https://www.unrealengine.com/en-US/download)
-- [Materials](https://cdn.discordapp.com/attachments/917649484450775061/1008993383219470386/Content.7z)
+- [Materials](https://cdn.discordapp.com/attachments/917649484450775061/1009621770766131303/Content.7z)
 
 ## Importing the materials into your Unreal Project
 
@@ -108,7 +108,7 @@ If you want your emissive area to be solid color instead of having an embers loo
 
 - You should enable EmissiveTouch if using emission.
 - The Hair material works on both killer and survivor.
-- The Hide Head_Mask is just an invited _M texture that only affects killers in first person. so for it Black is unhidden and White is hidden.
+- The Hide Head_Mask is just an inverted _M texture that only affects killers in first person. so for it Black is unhidden and White is hidden.
 
 ### Texture Based EM Colors
 
