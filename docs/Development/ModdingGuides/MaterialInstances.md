@@ -76,6 +76,11 @@ The video below will show how to make the textures required for this and how to 
   Your browser does not support the video tag.
 </video>
 
+## M_Structures_v2 (OPTIONAL)
+
+This material is meant for use on World objects for maps. supports 3 texture blending with a mask with tiling on each texture.
+parent all materials to `MI_Structures_v2_AdamInstance`
+
 ## FAQ
 
 - Diffuse is the _BC Texture.
