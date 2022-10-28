@@ -21,7 +21,7 @@ If you're having trouble with this step, check out [this guide](https://www.howt
 [/Script/Engine.NetworkSettings]
 n.VerifyPeer=false
 ```
-1. Download and install [NodeJS 14.x.x](https://nodejs.org/en/).
+1. Download and install [NodeJS 18 LTS](https://nodejs.org/en/). LTS versions 16 and 14 have also been tested.
 1. Download and extract the latest release of the [server](https://github.com/Preston159/dbd-server/releases) using the "Source code (zip)" link.
 ![](/img/screenshots/DevBuild/dev-server-release.png)
 1. Navigate to the folder where you extracted the server files and run `setup.bat`. You should see an output like this:
