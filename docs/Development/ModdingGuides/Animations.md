@@ -6,7 +6,8 @@ This guide will be written for Blender, but it can be followed very easily in th
 
 - [UE Viewer](https://www.gildor.org/en/projects/umodel)
 - [Unreal Engine](https://www.unrealengine.com/en-US/download) (4.27.2)
-- [Animation Fix](https://cdn.discordapp.com/attachments/797693369307496498/909972913766150144/anim-newfix.7z)
+- [Animation Fix](https://cdn.discordapp.com/attachments/797693369307496498/909972913766150144/anim-newfix.7z) (use this one if you plan to mod Dead by Daylight 5.6.2)
+- [Animation Fix](https://cdn.discordapp.com/attachments/917649484450775061/1061693276882747455/anim-newfix2.zip) (use this one if you plan to mod Dead by Daylight 5.7.2)
 
 ### For Blender Users
 
