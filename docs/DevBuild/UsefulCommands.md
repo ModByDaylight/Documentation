@@ -26,7 +26,7 @@
 | `DBD_AllowKilling` | Makes all survivors able to be killed (mori). Only works if the host is killer and does the command.
 | `DBD_ComeToMeMyChildren` | Teleports all characters to the player.
 | `Exit` | Forcibly closes the game.
-| `dbd_setkillerheadvisibility <true|false>` | Fixes issues where the killer appears distorted in freecam. (Ex: `dbd_setkillerheadvisibility true`)
+| `dbd_setkillerheadvisibility <true\|false>` | Fixes issues where the killer appears distorted in freecam. (Ex: `dbd_setkillerheadvisibility true`)
 | `DBD_AddHP` | Adds one health state to the survivor.
 | `DBD_RemoveHP` | Removes one health state from the survivor.
 | `DBD_SpawnCamperByName <name>` | Spawns a survivor by the name you type (Ex: `DBD_SpawnCamperByName Jake`)
