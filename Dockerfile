@@ -7,6 +7,7 @@ ADD docs/ /documentation/docs/
 ADD styles/ /documentation/styles/
 ADD mkdocs.yml gulpfile.js package.json /documentation/
 
+RUN apk update && apk add python3-dev gcc libc-dev
 RUN npm run setup
 RUN npm run build
 RUN mv /documentation/site/* /www/
