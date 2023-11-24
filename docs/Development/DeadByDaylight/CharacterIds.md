@@ -29,6 +29,11 @@
 | Leon S. Kennedy         | S27           | 26        |
 | Mikaela Reid            | S28           | 27        |
 | Jonah Vasquez           | S29           | 28        |
+| Yoichi Asakawa          | S30           | 29        |
+| Haddie Kaur             | S31           | 30        |
+| Ada Wong                | S32           | 31        |
+| Rebecca Chambers        | S31           | 32        |
+| Vittorio Toscano        | S32           | 33        |
 | The Trapper             | Trapper       | 268435456 |
 | The Wraith              | Wraith        | 268435457 |
 | The Hillbilly           | Crooked       | 268435458 |
@@ -55,3 +60,7 @@
 | The Nemesis             | K24           | 268435479 |
 | The Cenobite            | K25           | 268435480 |
 | The Artist              | K26           | 268435481 |
+| The Onryō               | K27           | 268435482 |
+| The Dredge              | K28           | 268435483 |
+| The Mastermind          | K29           | 268435484 |
+| The Knight              | K30           | 268435485 |
